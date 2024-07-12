@@ -1,0 +1,20 @@
+name: DASH
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch=2.1.0
+  - torchvision=0.16.0
+  - numpy
+  - matplotlib
+  - pandas
+  - scikit-learn
+  - tqdm
+  - pip:
+    - einops
+    - dotmap
+    - wandb
+    - pycaret
