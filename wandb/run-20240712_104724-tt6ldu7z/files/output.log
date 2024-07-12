@@ -1,0 +1,9 @@
+Files already downloaded and verified
+Files already downloaded and verified
+  0%|                                                                                                | 0/50 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/baekrok/Plasticity/main.py", line 403, in <module>
+    run(vars(args))
+  File "/home/baekrok/Plasticity/main.py", line 179, in run
+    if (train_acc >= converge_acc) | (epoch >= args.max_epoch):
+NameError: name 'converge_acc' is not defined

@@ -1,0 +1,48 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    code_path: code/temp.py
+    python_version: 3.10.13
+    cli_version: 0.16.0
+    framework: huggingface
+    huggingface_version: 4.39.2
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1717032544.332698
+    t:
+      1:
+      - 1
+      - 11
+      - 41
+      - 49
+      - 55
+      2:
+      - 1
+      - 11
+      - 41
+      - 49
+      - 55
+      3:
+      - 23
+      4: 3.10.13
+      5: 0.16.0
+      6: 4.39.2
+      8:
+      - 5
+      13: linux-x86_64
+depth:
+  desc: null
+  value: 1
+num_chunks:
+  desc: null
+  value: 2
+num_epochs:
+  desc: null
+  value:
+  - 100
+  - 100
+gpu:
+  desc: null
+  value: 0

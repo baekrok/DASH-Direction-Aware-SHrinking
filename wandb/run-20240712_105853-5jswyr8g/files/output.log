@@ -1,0 +1,12 @@
+Files already downloaded and verified
+Files already downloaded and verified
+
+  2%|█▊                                                                                      | 1/50 [00:08<06:41,  8.20s/it]
+Traceback (most recent call last):
+  File "/home/baekrok/Plasticity/main.py", line 403, in <module>
+    run(vars(args))
+  File "/home/baekrok/Plasticity/main.py", line 116, in run
+    model, new_grad_l2_norm = dash(args, model, criterion, recent_chunk_loader)
+  File "/home/baekrok/Plasticity/utils/train_utils.py", line 176, in dash
+    scale = torch.clamp(cos_sim / args.es_temperature, min=args.es_threshold, max=1)
+TypeError: unsupported operand type(s) for /: 'Tensor' and 'DotMap'

@@ -1,0 +1,10 @@
+Files already downloaded and verified
+Files already downloaded and verified
+Traceback (most recent call last):
+  File "/home/baekrok/Plasticity/temp.py", line 145, in <module>
+    train(args)
+  File "/home/baekrok/Plasticity/temp.py", line 73, in train
+    model = ConvNet(args).to(device)
+  File "/home/baekrok/Plasticity/temp.py", line 21, in __init__
+    self.bn1 = nn.BatchNorm2d()
+TypeError: _BatchNorm.__init__() missing 1 required positional argument: 'num_features'

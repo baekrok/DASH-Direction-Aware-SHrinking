@@ -1,0 +1,8 @@
+Files already downloaded and verified
+Files already downloaded and verified
+Traceback (most recent call last):
+  File "/home/baekrok/Plasticity/main.py", line 402, in <module>
+    run(vars(args))
+  File "/home/baekrok/Plasticity/main.py", line 85, in run
+    for chunk_idx in tqdm.tqdm(range(num_chunks)):
+NameError: name 'num_chunks' is not defined

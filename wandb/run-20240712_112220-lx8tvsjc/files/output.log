@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/home/baekrok/Plasticity/main.py", line 255, in <module>
+    run(vars(args))
+  File "/home/baekrok/Plasticity/main.py", line 47, in run
+    trainset, _, testset, test_loader = get_data(args)
+  File "/home/baekrok/Plasticity/DataLoader.py", line 74, in get_data
+    trainset = datasets.ImageFolder('Online_Learning/data/tiny-imagenet-200/train/', transform)
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torchvision/datasets/folder.py", line 309, in __init__
+    super().__init__(
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torchvision/datasets/folder.py", line 144, in __init__
+    classes, class_to_idx = self.find_classes(self.root)
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torchvision/datasets/folder.py", line 218, in find_classes
+    return find_classes(directory)
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torchvision/datasets/folder.py", line 40, in find_classes
+    classes = sorted(entry.name for entry in os.scandir(directory) if entry.is_dir())
+FileNotFoundError: [Errno 2] No such file or directory: 'Online_Learning/data/tiny-imagenet-200/train/'

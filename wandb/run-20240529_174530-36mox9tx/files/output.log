@@ -1,0 +1,21 @@
+Files already downloaded and verified
+Files already downloaded and verified
+  0%|                                                                                                 | 0/2 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/baekrok/Plasticity/temp.py", line 135, in <module>
+    train(args)
+  File "/home/baekrok/Plasticity/temp.py", line 92, in train
+    outputs = model(inputs)
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/baekrok/Plasticity/temp.py", line 43, in forward
+    x = self.fc1(x)
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 114, in forward
+    return F.linear(input, self.weight, self.bias)
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (128x256 and 128x10)

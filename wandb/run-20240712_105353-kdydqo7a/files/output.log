@@ -1,0 +1,42 @@
+Files already downloaded and verified
+Files already downloaded and verified
+
+
+
+
+
+
+
+ 14%|████████████▎                                                                           | 7/50 [01:33<09:35, 13.39s/it]
+Traceback (most recent call last):
+  File "/home/baekrok/Plasticity/main.py", line 403, in <module>
+    run(vars(args))
+  File "/home/baekrok/Plasticity/main.py", line 137, in run
+    prev_acc_log[f'metrics/epoch0_{key}_gradnorm'] = get_gradnorm(args, model, data_loader, criterion)
+  File "/home/baekrok/Plasticity/utils/train_utils.py", line 106, in get_gradnorm
+    for i, (inputs, targets) in enumerate(chunk_loader):
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 630, in __next__
+    data = self._next_data()
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 674, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torch/utils/data/dataset.py", line 302, in __getitem__
+    return self.datasets[dataset_idx][sample_idx]
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torch/utils/data/dataset.py", line 356, in __getitem__
+    return self.dataset[self.indices[idx]]
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torchvision/datasets/cifar.py", line 115, in __getitem__
+    img = Image.fromarray(img)
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/PIL/Image.py", line 3093, in fromarray
+    return frombuffer(mode, size, obj, "raw", rawmode, 0, 1)
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/PIL/Image.py", line 3009, in frombuffer
+    return frombytes(mode, size, data, decoder_name, args)
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/PIL/Image.py", line 2950, in frombytes
+    im = new(mode, size)
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/PIL/Image.py", line 2894, in new
+    _check_size(size)
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/PIL/Image.py", line 2857, in _check_size
+    def _check_size(size):
+KeyboardInterrupt

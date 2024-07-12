@@ -1,0 +1,226 @@
+Files already downloaded and verified
+Files already downloaded and verified
+ConvNet(
+  (conv1): Conv2d(3, 96, kernel_size=(3, 3), stride=(1, 1))
+  (bn1): BatchNorm2d(96, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (relu1): ReLU()
+  (conv_layers): Sequential(
+    (0): Conv2d(96, 96, kernel_size=(3, 3), stride=(1, 1))
+    (1): BatchNorm2d(96, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (2): ReLU()
+    (3): Conv2d(96, 192, kernel_size=(3, 3), stride=(2, 2))
+    (4): BatchNorm2d(192, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (5): ReLU()
+  )
+  (conv2): Conv2d(192, 192, kernel_size=(3, 3), stride=(1, 1))
+  (bn2): BatchNorm2d(192, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (relu2): ReLU()
+  (final_conv1): Conv2d(192, 192, kernel_size=(1, 1), stride=(1, 1))
+  (final_bn1): BatchNorm2d(192, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (relu_final1): ReLU()
+  (final_conv2): Conv2d(192, 10, kernel_size=(1, 1), stride=(1, 1))
+  (avgpool): AdaptiveAvgPool2d(output_size=(1, 1))
+)
+  0%|                                                                                                | 0/2 [00:00<?, ?it/s]
+Chunk [1/2], Epoch [1/100], Loss: 1.8902, Train Accuracy: 0.2908, Test Accuracy: 0.3480
+Chunk [1/2], Epoch [2/100], Loss: 1.5771, Train Accuracy: 0.4020, Test Accuracy: 0.3805
+Chunk [1/2], Epoch [3/100], Loss: 1.4190, Train Accuracy: 0.4782, Test Accuracy: 0.4509
+Chunk [1/2], Epoch [4/100], Loss: 1.3162, Train Accuracy: 0.5208, Test Accuracy: 0.5259
+Chunk [1/2], Epoch [5/100], Loss: 1.2472, Train Accuracy: 0.5483, Test Accuracy: 0.4532
+Chunk [1/2], Epoch [6/100], Loss: 1.1909, Train Accuracy: 0.5713, Test Accuracy: 0.5093
+Chunk [1/2], Epoch [7/100], Loss: 1.1476, Train Accuracy: 0.5906, Test Accuracy: 0.5619
+Chunk [1/2], Epoch [8/100], Loss: 1.1143, Train Accuracy: 0.6037, Test Accuracy: 0.5710
+Chunk [1/2], Epoch [9/100], Loss: 1.0734, Train Accuracy: 0.6145, Test Accuracy: 0.6026
+Chunk [1/2], Epoch [10/100], Loss: 1.0400, Train Accuracy: 0.6314, Test Accuracy: 0.5002
+Chunk [1/2], Epoch [11/100], Loss: 1.0169, Train Accuracy: 0.6388, Test Accuracy: 0.6050
+Chunk [1/2], Epoch [12/100], Loss: 0.9791, Train Accuracy: 0.6550, Test Accuracy: 0.5527
+Chunk [1/2], Epoch [13/100], Loss: 0.9517, Train Accuracy: 0.6646, Test Accuracy: 0.5729
+Chunk [1/2], Epoch [14/100], Loss: 0.9310, Train Accuracy: 0.6720, Test Accuracy: 0.6193
+Chunk [1/2], Epoch [15/100], Loss: 0.9072, Train Accuracy: 0.6796, Test Accuracy: 0.6093
+Chunk [1/2], Epoch [16/100], Loss: 0.8775, Train Accuracy: 0.6918, Test Accuracy: 0.5138
+Chunk [1/2], Epoch [17/100], Loss: 0.8555, Train Accuracy: 0.6972, Test Accuracy: 0.6026
+Chunk [1/2], Epoch [18/100], Loss: 0.8515, Train Accuracy: 0.6999, Test Accuracy: 0.6266
+Chunk [1/2], Epoch [19/100], Loss: 0.8214, Train Accuracy: 0.7128, Test Accuracy: 0.6121
+Chunk [1/2], Epoch [20/100], Loss: 0.7994, Train Accuracy: 0.7228, Test Accuracy: 0.6088
+Chunk [1/2], Epoch [21/100], Loss: 0.7855, Train Accuracy: 0.7246, Test Accuracy: 0.6642
+Chunk [1/2], Epoch [22/100], Loss: 0.7686, Train Accuracy: 0.7316, Test Accuracy: 0.6114
+Chunk [1/2], Epoch [23/100], Loss: 0.7402, Train Accuracy: 0.7404, Test Accuracy: 0.6182
+Chunk [1/2], Epoch [24/100], Loss: 0.7302, Train Accuracy: 0.7450, Test Accuracy: 0.6319
+Chunk [1/2], Epoch [25/100], Loss: 0.7230, Train Accuracy: 0.7444, Test Accuracy: 0.6475
+Chunk [1/2], Epoch [26/100], Loss: 0.7015, Train Accuracy: 0.7558, Test Accuracy: 0.6818
+Chunk [1/2], Epoch [27/100], Loss: 0.6794, Train Accuracy: 0.7623, Test Accuracy: 0.6444
+Chunk [1/2], Epoch [28/100], Loss: 0.6552, Train Accuracy: 0.7705, Test Accuracy: 0.6600
+Chunk [1/2], Epoch [29/100], Loss: 0.6617, Train Accuracy: 0.7710, Test Accuracy: 0.5760
+Chunk [1/2], Epoch [30/100], Loss: 0.6476, Train Accuracy: 0.7760, Test Accuracy: 0.7122
+Chunk [1/2], Epoch [31/100], Loss: 0.6207, Train Accuracy: 0.7816, Test Accuracy: 0.6138
+Chunk [1/2], Epoch [32/100], Loss: 0.6097, Train Accuracy: 0.7866, Test Accuracy: 0.6314
+Chunk [1/2], Epoch [33/100], Loss: 0.5794, Train Accuracy: 0.7992, Test Accuracy: 0.7034
+Chunk [1/2], Epoch [34/100], Loss: 0.5807, Train Accuracy: 0.7967, Test Accuracy: 0.5966
+Chunk [1/2], Epoch [35/100], Loss: 0.5716, Train Accuracy: 0.8006, Test Accuracy: 0.6954
+Chunk [1/2], Epoch [36/100], Loss: 0.5546, Train Accuracy: 0.8064, Test Accuracy: 0.7103
+Chunk [1/2], Epoch [37/100], Loss: 0.5425, Train Accuracy: 0.8131, Test Accuracy: 0.6229
+Chunk [1/2], Epoch [38/100], Loss: 0.5283, Train Accuracy: 0.8184, Test Accuracy: 0.6635
+Chunk [1/2], Epoch [39/100], Loss: 0.4973, Train Accuracy: 0.8295, Test Accuracy: 0.6508
+Chunk [1/2], Epoch [40/100], Loss: 0.5034, Train Accuracy: 0.8251, Test Accuracy: 0.6528
+Chunk [1/2], Epoch [41/100], Loss: 0.4751, Train Accuracy: 0.8377, Test Accuracy: 0.6581
+Chunk [1/2], Epoch [42/100], Loss: 0.4625, Train Accuracy: 0.8400, Test Accuracy: 0.6586
+Chunk [1/2], Epoch [43/100], Loss: 0.4367, Train Accuracy: 0.8490, Test Accuracy: 0.7131
+Chunk [1/2], Epoch [44/100], Loss: 0.4328, Train Accuracy: 0.8506, Test Accuracy: 0.6400
+Chunk [1/2], Epoch [45/100], Loss: 0.4359, Train Accuracy: 0.8461, Test Accuracy: 0.6722
+Chunk [1/2], Epoch [46/100], Loss: 0.4005, Train Accuracy: 0.8620, Test Accuracy: 0.6626
+Chunk [1/2], Epoch [47/100], Loss: 0.3928, Train Accuracy: 0.8632, Test Accuracy: 0.6852
+Chunk [1/2], Epoch [48/100], Loss: 0.3772, Train Accuracy: 0.8713, Test Accuracy: 0.7120
+Chunk [1/2], Epoch [49/100], Loss: 0.3530, Train Accuracy: 0.8796, Test Accuracy: 0.6279
+Chunk [1/2], Epoch [50/100], Loss: 0.3474, Train Accuracy: 0.8784, Test Accuracy: 0.6586
+Chunk [1/2], Epoch [51/100], Loss: 0.3250, Train Accuracy: 0.8895, Test Accuracy: 0.7159
+Chunk [1/2], Epoch [52/100], Loss: 0.3187, Train Accuracy: 0.8908, Test Accuracy: 0.6457
+Chunk [1/2], Epoch [53/100], Loss: 0.3049, Train Accuracy: 0.8955, Test Accuracy: 0.6815
+Chunk [1/2], Epoch [54/100], Loss: 0.2830, Train Accuracy: 0.9028, Test Accuracy: 0.6876
+Chunk [1/2], Epoch [55/100], Loss: 0.2636, Train Accuracy: 0.9134, Test Accuracy: 0.6139
+Chunk [1/2], Epoch [56/100], Loss: 0.2630, Train Accuracy: 0.9096, Test Accuracy: 0.6525
+Chunk [1/2], Epoch [57/100], Loss: 0.2639, Train Accuracy: 0.9102, Test Accuracy: 0.6220
+Chunk [1/2], Epoch [58/100], Loss: 0.2378, Train Accuracy: 0.9191, Test Accuracy: 0.6291
+Chunk [1/2], Epoch [59/100], Loss: 0.2271, Train Accuracy: 0.9236, Test Accuracy: 0.6078
+Chunk [1/2], Epoch [60/100], Loss: 0.2379, Train Accuracy: 0.9176, Test Accuracy: 0.6306
+Chunk [1/2], Epoch [61/100], Loss: 0.2130, Train Accuracy: 0.9272, Test Accuracy: 0.6626
+Chunk [1/2], Epoch [62/100], Loss: 0.2107, Train Accuracy: 0.9307, Test Accuracy: 0.5298
+Chunk [1/2], Epoch [63/100], Loss: 0.1788, Train Accuracy: 0.9414, Test Accuracy: 0.7145
+Chunk [1/2], Epoch [64/100], Loss: 0.1601, Train Accuracy: 0.9492, Test Accuracy: 0.6930
+Chunk [1/2], Epoch [65/100], Loss: 0.1780, Train Accuracy: 0.9404, Test Accuracy: 0.6585
+Chunk [1/2], Epoch [66/100], Loss: 0.1627, Train Accuracy: 0.9474, Test Accuracy: 0.6633
+Chunk [1/2], Epoch [67/100], Loss: 0.1516, Train Accuracy: 0.9507, Test Accuracy: 0.6796
+Chunk [1/2], Epoch [68/100], Loss: 0.1391, Train Accuracy: 0.9571, Test Accuracy: 0.6905
+Chunk [1/2], Epoch [69/100], Loss: 0.1073, Train Accuracy: 0.9704, Test Accuracy: 0.7153
+Chunk [1/2], Epoch [70/100], Loss: 0.1302, Train Accuracy: 0.9588, Test Accuracy: 0.6800
+Chunk [1/2], Epoch [71/100], Loss: 0.1191, Train Accuracy: 0.9628, Test Accuracy: 0.7107
+Chunk [1/2], Epoch [72/100], Loss: 0.0913, Train Accuracy: 0.9742, Test Accuracy: 0.6637
+Chunk [1/2], Epoch [73/100], Loss: 0.0952, Train Accuracy: 0.9731, Test Accuracy: 0.6508
+Chunk [1/2], Epoch [74/100], Loss: 0.1127, Train Accuracy: 0.9664, Test Accuracy: 0.6636
+Chunk [1/2], Epoch [75/100], Loss: 0.1107, Train Accuracy: 0.9668, Test Accuracy: 0.7150
+Chunk [1/2], Epoch [76/100], Loss: 0.0873, Train Accuracy: 0.9754, Test Accuracy: 0.6705
+Chunk [1/2], Epoch [77/100], Loss: 0.0705, Train Accuracy: 0.9817, Test Accuracy: 0.6687
+Chunk [1/2], Epoch [78/100], Loss: 0.0724, Train Accuracy: 0.9810, Test Accuracy: 0.7059
+Chunk [1/2], Epoch [79/100], Loss: 0.0808, Train Accuracy: 0.9779, Test Accuracy: 0.6750
+Chunk [1/2], Epoch [80/100], Loss: 0.0506, Train Accuracy: 0.9897, Test Accuracy: 0.7280
+Chunk [1/2], Epoch [81/100], Loss: 0.0385, Train Accuracy: 0.9938, Test Accuracy: 0.7263
+Chunk [1/2], Epoch [82/100], Loss: 0.0306, Train Accuracy: 0.9962, Test Accuracy: 0.7314
+Chunk [1/2], Epoch [83/100], Loss: 0.0268, Train Accuracy: 0.9967, Test Accuracy: 0.7007
+Chunk [1/2], Epoch [84/100], Loss: 0.0431, Train Accuracy: 0.9908, Test Accuracy: 0.7282
+Chunk [1/2], Epoch [85/100], Loss: 0.0219, Train Accuracy: 0.9982, Test Accuracy: 0.7387
+Chunk [1/2], Epoch [86/100], Loss: 0.0152, Train Accuracy: 0.9994, Test Accuracy: 0.7341
+Chunk [1/2], Epoch [87/100], Loss: 0.0130, Train Accuracy: 0.9997, Test Accuracy: 0.7517
+Chunk [1/2], Epoch [88/100], Loss: 0.0118, Train Accuracy: 0.9997, Test Accuracy: 0.7382
+Chunk [1/2], Epoch [89/100], Loss: 0.0102, Train Accuracy: 1.0000, Test Accuracy: 0.7480
+Chunk [1/2], Epoch [90/100], Loss: 0.0090, Train Accuracy: 0.9999, Test Accuracy: 0.7487
+Chunk [1/2], Epoch [91/100], Loss: 0.0091, Train Accuracy: 1.0000, Test Accuracy: 0.7454
+Chunk [1/2], Epoch [92/100], Loss: 0.0076, Train Accuracy: 1.0000, Test Accuracy: 0.7453
+Chunk [1/2], Epoch [93/100], Loss: 0.0078, Train Accuracy: 1.0000, Test Accuracy: 0.7478
+Chunk [1/2], Epoch [94/100], Loss: 0.0069, Train Accuracy: 1.0000, Test Accuracy: 0.7494
+Chunk [1/2], Epoch [95/100], Loss: 0.0059, Train Accuracy: 1.0000, Test Accuracy: 0.7501
+Chunk [1/2], Epoch [96/100], Loss: 0.0062, Train Accuracy: 1.0000, Test Accuracy: 0.7471
+Chunk [1/2], Epoch [97/100], Loss: 0.0058, Train Accuracy: 1.0000, Test Accuracy: 0.7480
+Chunk [1/2], Epoch [98/100], Loss: 0.0051, Train Accuracy: 1.0000, Test Accuracy: 0.7505
+
+ 50%|███████████████████████████████████████████▌                                           | 1/2 [13:17<13:17, 797.10s/it]
+Chunk [1/2], Epoch [100/100], Loss: 0.0051, Train Accuracy: 1.0000, Test Accuracy: 0.7504
+Chunk [2/2], Epoch [1/100], Loss: 0.9793, Train Accuracy: 0.7521, Test Accuracy: 0.6482
+Chunk [2/2], Epoch [2/100], Loss: 0.4921, Train Accuracy: 0.8392, Test Accuracy: 0.7440
+Chunk [2/2], Epoch [3/100], Loss: 0.4229, Train Accuracy: 0.8618, Test Accuracy: 0.7211
+Chunk [2/2], Epoch [4/100], Loss: 0.3819, Train Accuracy: 0.8748, Test Accuracy: 0.6860
+Chunk [2/2], Epoch [5/100], Loss: 0.3584, Train Accuracy: 0.8814, Test Accuracy: 0.6999
+Chunk [2/2], Epoch [6/100], Loss: 0.3324, Train Accuracy: 0.8909, Test Accuracy: 0.7146
+Chunk [2/2], Epoch [7/100], Loss: 0.3169, Train Accuracy: 0.8946, Test Accuracy: 0.7128
+Chunk [2/2], Epoch [8/100], Loss: 0.2910, Train Accuracy: 0.9025, Test Accuracy: 0.7557
+Chunk [2/2], Epoch [9/100], Loss: 0.2739, Train Accuracy: 0.9093, Test Accuracy: 0.7336
+Chunk [2/2], Epoch [10/100], Loss: 0.2600, Train Accuracy: 0.9136, Test Accuracy: 0.7590
+Chunk [2/2], Epoch [11/100], Loss: 0.2423, Train Accuracy: 0.9183, Test Accuracy: 0.7268
+Chunk [2/2], Epoch [12/100], Loss: 0.2399, Train Accuracy: 0.9180, Test Accuracy: 0.7412
+Chunk [2/2], Epoch [13/100], Loss: 0.2117, Train Accuracy: 0.9297, Test Accuracy: 0.7290
+Chunk [2/2], Epoch [14/100], Loss: 0.1988, Train Accuracy: 0.9328, Test Accuracy: 0.7530
+Chunk [2/2], Epoch [15/100], Loss: 0.1802, Train Accuracy: 0.9406, Test Accuracy: 0.7223
+Chunk [2/2], Epoch [16/100], Loss: 0.1720, Train Accuracy: 0.9430, Test Accuracy: 0.7379
+Chunk [2/2], Epoch [17/100], Loss: 0.1716, Train Accuracy: 0.9437, Test Accuracy: 0.7357
+Chunk [2/2], Epoch [18/100], Loss: 0.1518, Train Accuracy: 0.9516, Test Accuracy: 0.7057
+Chunk [2/2], Epoch [19/100], Loss: 0.1443, Train Accuracy: 0.9528, Test Accuracy: 0.7586
+Chunk [2/2], Epoch [20/100], Loss: 0.1353, Train Accuracy: 0.9567, Test Accuracy: 0.6998
+Chunk [2/2], Epoch [21/100], Loss: 0.1253, Train Accuracy: 0.9595, Test Accuracy: 0.7237
+Chunk [2/2], Epoch [22/100], Loss: 0.1133, Train Accuracy: 0.9640, Test Accuracy: 0.7200
+Chunk [2/2], Epoch [23/100], Loss: 0.1147, Train Accuracy: 0.9637, Test Accuracy: 0.6854
+Chunk [2/2], Epoch [24/100], Loss: 0.0920, Train Accuracy: 0.9732, Test Accuracy: 0.6950
+Chunk [2/2], Epoch [25/100], Loss: 0.0928, Train Accuracy: 0.9720, Test Accuracy: 0.6780
+Chunk [2/2], Epoch [26/100], Loss: 0.0834, Train Accuracy: 0.9751, Test Accuracy: 0.7672
+Chunk [2/2], Epoch [27/100], Loss: 0.0769, Train Accuracy: 0.9782, Test Accuracy: 0.7286
+Chunk [2/2], Epoch [28/100], Loss: 0.0856, Train Accuracy: 0.9737, Test Accuracy: 0.7344
+Chunk [2/2], Epoch [29/100], Loss: 0.0779, Train Accuracy: 0.9762, Test Accuracy: 0.7188
+Chunk [2/2], Epoch [30/100], Loss: 0.0911, Train Accuracy: 0.9708, Test Accuracy: 0.7357
+Chunk [2/2], Epoch [31/100], Loss: 0.0660, Train Accuracy: 0.9816, Test Accuracy: 0.7633
+Chunk [2/2], Epoch [32/100], Loss: 0.0523, Train Accuracy: 0.9865, Test Accuracy: 0.7568
+Chunk [2/2], Epoch [33/100], Loss: 0.0352, Train Accuracy: 0.9933, Test Accuracy: 0.7607
+Chunk [2/2], Epoch [34/100], Loss: 0.0250, Train Accuracy: 0.9968, Test Accuracy: 0.7689
+Chunk [2/2], Epoch [35/100], Loss: 0.0207, Train Accuracy: 0.9978, Test Accuracy: 0.7673
+Chunk [2/2], Epoch [36/100], Loss: 0.0157, Train Accuracy: 0.9990, Test Accuracy: 0.7703
+Chunk [2/2], Epoch [37/100], Loss: 0.0135, Train Accuracy: 0.9993, Test Accuracy: 0.7711
+Chunk [2/2], Epoch [38/100], Loss: 0.0122, Train Accuracy: 0.9993, Test Accuracy: 0.7707
+Chunk [2/2], Epoch [39/100], Loss: 0.0118, Train Accuracy: 0.9994, Test Accuracy: 0.7705
+Chunk [2/2], Epoch [40/100], Loss: 0.0108, Train Accuracy: 0.9995, Test Accuracy: 0.7709
+Chunk [2/2], Epoch [41/100], Loss: 0.0104, Train Accuracy: 0.9994, Test Accuracy: 0.7649
+Chunk [2/2], Epoch [42/100], Loss: 0.0084, Train Accuracy: 0.9998, Test Accuracy: 0.7740
+Chunk [2/2], Epoch [43/100], Loss: 0.0069, Train Accuracy: 0.9998, Test Accuracy: 0.7816
+Chunk [2/2], Epoch [44/100], Loss: 0.0060, Train Accuracy: 0.9999, Test Accuracy: 0.7758
+Chunk [2/2], Epoch [45/100], Loss: 0.0055, Train Accuracy: 1.0000, Test Accuracy: 0.7761
+Chunk [2/2], Epoch [46/100], Loss: 0.0054, Train Accuracy: 0.9999, Test Accuracy: 0.7827
+Chunk [2/2], Epoch [47/100], Loss: 0.0049, Train Accuracy: 1.0000, Test Accuracy: 0.7834
+Chunk [2/2], Epoch [48/100], Loss: 0.0046, Train Accuracy: 1.0000, Test Accuracy: 0.7796
+Chunk [2/2], Epoch [49/100], Loss: 0.0045, Train Accuracy: 1.0000, Test Accuracy: 0.7791
+Chunk [2/2], Epoch [50/100], Loss: 0.0041, Train Accuracy: 1.0000, Test Accuracy: 0.7838
+Chunk [2/2], Epoch [51/100], Loss: 0.0036, Train Accuracy: 1.0000, Test Accuracy: 0.7798
+Chunk [2/2], Epoch [52/100], Loss: 0.0035, Train Accuracy: 1.0000, Test Accuracy: 0.7761
+Chunk [2/2], Epoch [53/100], Loss: 0.0034, Train Accuracy: 1.0000, Test Accuracy: 0.7794
+Chunk [2/2], Epoch [54/100], Loss: 0.0033, Train Accuracy: 1.0000, Test Accuracy: 0.7812
+Chunk [2/2], Epoch [55/100], Loss: 0.0033, Train Accuracy: 1.0000, Test Accuracy: 0.7813
+Chunk [2/2], Epoch [56/100], Loss: 0.0031, Train Accuracy: 1.0000, Test Accuracy: 0.7769
+Chunk [2/2], Epoch [57/100], Loss: 0.0056, Train Accuracy: 0.9997, Test Accuracy: 0.7776
+Chunk [2/2], Epoch [58/100], Loss: 0.0031, Train Accuracy: 1.0000, Test Accuracy: 0.7787
+Chunk [2/2], Epoch [59/100], Loss: 0.0029, Train Accuracy: 1.0000, Test Accuracy: 0.7793
+Chunk [2/2], Epoch [60/100], Loss: 0.0028, Train Accuracy: 1.0000, Test Accuracy: 0.7718
+Chunk [2/2], Epoch [61/100], Loss: 0.0028, Train Accuracy: 1.0000, Test Accuracy: 0.7789
+Chunk [2/2], Epoch [62/100], Loss: 0.0027, Train Accuracy: 1.0000, Test Accuracy: 0.7805
+Chunk [2/2], Epoch [63/100], Loss: 0.0024, Train Accuracy: 1.0000, Test Accuracy: 0.7804
+Chunk [2/2], Epoch [64/100], Loss: 0.0025, Train Accuracy: 1.0000, Test Accuracy: 0.7796
+Chunk [2/2], Epoch [65/100], Loss: 0.0024, Train Accuracy: 1.0000, Test Accuracy: 0.7807
+Chunk [2/2], Epoch [66/100], Loss: 0.0022, Train Accuracy: 1.0000, Test Accuracy: 0.7799
+Chunk [2/2], Epoch [67/100], Loss: 0.0023, Train Accuracy: 1.0000, Test Accuracy: 0.7811
+Chunk [2/2], Epoch [68/100], Loss: 0.0022, Train Accuracy: 1.0000, Test Accuracy: 0.7813
+Chunk [2/2], Epoch [69/100], Loss: 0.0021, Train Accuracy: 1.0000, Test Accuracy: 0.7783
+Chunk [2/2], Epoch [70/100], Loss: 0.0020, Train Accuracy: 1.0000, Test Accuracy: 0.7789
+Chunk [2/2], Epoch [71/100], Loss: 0.0020, Train Accuracy: 1.0000, Test Accuracy: 0.7790
+Chunk [2/2], Epoch [72/100], Loss: 0.0019, Train Accuracy: 1.0000, Test Accuracy: 0.7790
+Chunk [2/2], Epoch [73/100], Loss: 0.0019, Train Accuracy: 1.0000, Test Accuracy: 0.7794
+Chunk [2/2], Epoch [74/100], Loss: 0.0018, Train Accuracy: 1.0000, Test Accuracy: 0.7800
+Chunk [2/2], Epoch [75/100], Loss: 0.0018, Train Accuracy: 1.0000, Test Accuracy: 0.7814
+Chunk [2/2], Epoch [76/100], Loss: 0.0016, Train Accuracy: 1.0000, Test Accuracy: 0.7823
+Chunk [2/2], Epoch [77/100], Loss: 0.0016, Train Accuracy: 1.0000, Test Accuracy: 0.7792
+Chunk [2/2], Epoch [78/100], Loss: 0.0020, Train Accuracy: 1.0000, Test Accuracy: 0.7734
+Chunk [2/2], Epoch [79/100], Loss: 0.0020, Train Accuracy: 1.0000, Test Accuracy: 0.7775
+Chunk [2/2], Epoch [80/100], Loss: 0.0015, Train Accuracy: 1.0000, Test Accuracy: 0.7777
+Chunk [2/2], Epoch [81/100], Loss: 0.0015, Train Accuracy: 1.0000, Test Accuracy: 0.7788
+Chunk [2/2], Epoch [82/100], Loss: 0.0015, Train Accuracy: 1.0000, Test Accuracy: 0.7796
+Chunk [2/2], Epoch [83/100], Loss: 0.0015, Train Accuracy: 1.0000, Test Accuracy: 0.7809
+Chunk [2/2], Epoch [84/100], Loss: 0.0014, Train Accuracy: 1.0000, Test Accuracy: 0.7782
+Chunk [2/2], Epoch [85/100], Loss: 0.0014, Train Accuracy: 1.0000, Test Accuracy: 0.7785
+Chunk [2/2], Epoch [86/100], Loss: 0.0015, Train Accuracy: 1.0000, Test Accuracy: 0.7773
+Chunk [2/2], Epoch [87/100], Loss: 0.0015, Train Accuracy: 1.0000, Test Accuracy: 0.7775
+Chunk [2/2], Epoch [88/100], Loss: 0.0014, Train Accuracy: 1.0000, Test Accuracy: 0.7821
+Chunk [2/2], Epoch [89/100], Loss: 0.0013, Train Accuracy: 1.0000, Test Accuracy: 0.7791
+Chunk [2/2], Epoch [90/100], Loss: 0.0013, Train Accuracy: 1.0000, Test Accuracy: 0.7791
+Chunk [2/2], Epoch [91/100], Loss: 0.0022, Train Accuracy: 0.9998, Test Accuracy: 0.7367
+Chunk [2/2], Epoch [92/100], Loss: 0.4208, Train Accuracy: 0.8976, Test Accuracy: 0.6480
+Chunk [2/2], Epoch [93/100], Loss: 0.2304, Train Accuracy: 0.9233, Test Accuracy: 0.7212
+Chunk [2/2], Epoch [94/100], Loss: 0.0634, Train Accuracy: 0.9806, Test Accuracy: 0.7435
+Chunk [2/2], Epoch [95/100], Loss: 0.0312, Train Accuracy: 0.9936, Test Accuracy: 0.7570
+Chunk [2/2], Epoch [96/100], Loss: 0.0144, Train Accuracy: 0.9988, Test Accuracy: 0.7789
+Chunk [2/2], Epoch [97/100], Loss: 0.0087, Train Accuracy: 0.9997, Test Accuracy: 0.7791
+Chunk [2/2], Epoch [98/100], Loss: 0.0064, Train Accuracy: 0.9999, Test Accuracy: 0.7811
+
+100%|██████████████████████████████████████████████████████████████████████████████████████| 2/2 [41:45<00:00, 1252.74s/it]
+Chunk [2/2], Epoch [100/100], Loss: 0.0047, Train Accuracy: 1.0000, Test Accuracy: 0.7814

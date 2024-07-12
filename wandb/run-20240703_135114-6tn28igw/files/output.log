@@ -1,0 +1,62 @@
+Files already downloaded and verified
+Files already downloaded and verified
+<class 'torch.nn.modules.batchnorm.BatchNorm2d'>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 28%|████████████████████████                                                              | 28/100 [03:12<08:15,  6.88s/it]
+Traceback (most recent call last):
+  File "/home/baekrok/Plasticity/temp.py", line 122, in <module>
+    run_online(vars(args))
+  File "/home/baekrok/Plasticity/temp.py", line 49, in run_online
+    for inputs, targets in chunk_loader:
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 630, in __next__
+    data = self._next_data()
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 674, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 49, in fetch
+    data = self.dataset.__getitems__(possibly_batched_index)
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torch/utils/data/dataset.py", line 364, in __getitems__
+    return [self.dataset[self.indices[idx]] for idx in indices]
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torch/utils/data/dataset.py", line 364, in <listcomp>
+    return [self.dataset[self.indices[idx]] for idx in indices]
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torchvision/datasets/cifar.py", line 118, in __getitem__
+    img = self.transform(img)
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torchvision/transforms/transforms.py", line 95, in __call__
+    img = t(img)
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torchvision/transforms/transforms.py", line 277, in forward
+    return F.normalize(tensor, self.mean, self.std, self.inplace)
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torchvision/transforms/functional.py", line 363, in normalize
+    return F_t.normalize(tensor, mean=mean, std=std, inplace=inplace)
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torchvision/transforms/_functional_tensor.py", line 922, in normalize
+    if (std == 0).any():
+KeyboardInterrupt

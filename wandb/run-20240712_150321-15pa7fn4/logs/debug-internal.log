@@ -1,0 +1,230 @@
+2024-07-12 15:03:21,839 INFO    StreamThr :3639462 [internal.py:wandb_internal():86] W&B internal server running at pid: 3639462, started at: 2024-07-12 15:03:21.838341
+2024-07-12 15:03:21,842 DEBUG   HandlerThread:3639462 [handler.py:handle_request():146] handle_request: status
+2024-07-12 15:03:21,846 INFO    WriterThread:3639462 [datastore.py:open_for_write():85] open: /home/baekrok/Plasticity/wandb/run-20240712_150321-15pa7fn4/run-15pa7fn4.wandb
+2024-07-12 15:03:21,847 DEBUG   SenderThread:3639462 [sender.py:send():380] send: header
+2024-07-12 15:03:21,847 DEBUG   SenderThread:3639462 [sender.py:send():380] send: run
+2024-07-12 15:03:22,653 INFO    SenderThread:3639462 [dir_watcher.py:__init__():211] watching files in: /home/baekrok/Plasticity/wandb/run-20240712_150321-15pa7fn4/files
+2024-07-12 15:03:22,653 INFO    SenderThread:3639462 [sender.py:_start_run_threads():1124] run started: 15pa7fn4 with start time 1720764201.837921
+2024-07-12 15:03:22,665 DEBUG   HandlerThread:3639462 [handler.py:handle_request():146] handle_request: check_version
+2024-07-12 15:03:22,666 DEBUG   SenderThread:3639462 [sender.py:send_request():407] send_request: check_version
+2024-07-12 15:03:22,750 DEBUG   HandlerThread:3639462 [handler.py:handle_request():146] handle_request: run_start
+2024-07-12 15:03:22,768 DEBUG   HandlerThread:3639462 [system_info.py:__init__():32] System info init
+2024-07-12 15:03:22,768 DEBUG   HandlerThread:3639462 [system_info.py:__init__():47] System info init done
+2024-07-12 15:03:22,768 INFO    HandlerThread:3639462 [system_monitor.py:start():194] Starting system monitor
+2024-07-12 15:03:22,769 INFO    SystemMonitor:3639462 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-07-12 15:03:22,770 INFO    HandlerThread:3639462 [system_monitor.py:probe():214] Collecting system info
+2024-07-12 15:03:22,771 INFO    SystemMonitor:3639462 [interfaces.py:start():190] Started cpu monitoring
+2024-07-12 15:03:22,772 INFO    SystemMonitor:3639462 [interfaces.py:start():190] Started disk monitoring
+2024-07-12 15:03:22,774 INFO    SystemMonitor:3639462 [interfaces.py:start():190] Started gpu monitoring
+2024-07-12 15:03:22,776 INFO    SystemMonitor:3639462 [interfaces.py:start():190] Started memory monitoring
+2024-07-12 15:03:22,777 INFO    SystemMonitor:3639462 [interfaces.py:start():190] Started network monitoring
+2024-07-12 15:03:22,837 DEBUG   HandlerThread:3639462 [system_info.py:probe():196] Probing system
+2024-07-12 15:03:22,840 DEBUG   HandlerThread:3639462 [gitlib.py:_init_repo():56] git repository is invalid
+2024-07-12 15:03:22,841 DEBUG   HandlerThread:3639462 [system_info.py:probe():244] Probing system done
+2024-07-12 15:03:22,841 DEBUG   HandlerThread:3639462 [system_monitor.py:probe():223] {'os': 'Linux-6.5.0-35-generic-x86_64-with-glibc2.35', 'python': '3.10.13', 'heartbeatAt': '2024-07-12T06:03:22.837431', 'startedAt': '2024-07-12T06:03:21.833567', 'docker': None, 'cuda': None, 'args': ('--sota=True', '--weight_decay=5e-4', '--learning_rate=0.1', '--batch_size=128', '--max_epoch=260', '--gpu=5', '--train_type=dash'), 'state': 'running', 'program': '/home/baekrok/Plasticity/main.py', 'codePathLocal': 'main.py', 'codePath': 'main.py', 'host': 'user-G482-Z54-00', 'username': 'baekrok', 'executable': '/opt/anaconda3/envs/torch/bin/python', 'cpu_count': 128, 'cpu_count_logical': 128, 'cpu_freq': {'current': 1.6878750000000002, 'min': 1500.0, 'max': 2450.0}, 'cpu_freq_per_core': [{'current': 2.584, 'min': 1500.0, 'max': 2450.0}, {'current': 3.368, 'min': 1500.0, 'max': 2450.0}, {'current': 2.612, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 2.45, 'min': 1500.0, 'max': 2450.0}, {'current': 1.499, 'min': 1500.0, 'max': 2450.0}, {'current': 2.45, 'min': 1500.0, 'max': 2450.0}, {'current': 1.798, 'min': 1500.0, 'max': 2450.0}, {'current': 1.723, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 2.45, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.688, 'min': 1500.0, 'max': 2450.0}, {'current': 1.984, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 3.38, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 2.45, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.798, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.499, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.797, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.499, 'min': 1500.0, 'max': 2450.0}, {'current': 1.795, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 3.407, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 3.267, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.499, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 2.45, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 2.0, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 3.525, 'min': 1500.0, 'max': 2450.0}, {'current': 2.359, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 2.817, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 2.818, 'min': 1500.0, 'max': 2450.0}, {'current': 2.813, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 3.524, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.502, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 2.45, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}, {'current': 1.5, 'min': 1500.0, 'max': 2450.0}], 'disk': {'/': {'total': 7095.969635009766, 'used': 581.6923637390137}}, 'gpu': 'NVIDIA RTX A6000', 'gpu_count': 8, 'gpu_devices': [{'name': 'NVIDIA RTX A6000', 'memory_total': 51527024640}, {'name': 'NVIDIA RTX A6000', 'memory_total': 51527024640}, {'name': 'NVIDIA RTX A6000', 'memory_total': 51527024640}, {'name': 'NVIDIA RTX A6000', 'memory_total': 51527024640}, {'name': 'NVIDIA RTX A6000', 'memory_total': 51527024640}, {'name': 'NVIDIA RTX A6000', 'memory_total': 51527024640}, {'name': 'NVIDIA RTX A6000', 'memory_total': 51527024640}, {'name': 'NVIDIA RTX A6000', 'memory_total': 51527024640}], 'memory': {'total': 1007.7092895507812}}
+2024-07-12 15:03:22,841 INFO    HandlerThread:3639462 [system_monitor.py:probe():224] Finished collecting system info
+2024-07-12 15:03:22,841 INFO    HandlerThread:3639462 [system_monitor.py:probe():227] Publishing system info
+2024-07-12 15:03:22,841 DEBUG   HandlerThread:3639462 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2024-07-12 15:03:22,842 DEBUG   HandlerThread:3639462 [system_info.py:_save_pip():68] Saving pip packages done
+2024-07-12 15:03:22,842 DEBUG   HandlerThread:3639462 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2024-07-12 15:03:23,654 INFO    Thread-12 :3639462 [dir_watcher.py:_on_file_created():271] file/dir created: /home/baekrok/Plasticity/wandb/run-20240712_150321-15pa7fn4/files/requirements.txt
+2024-07-12 15:03:23,655 INFO    Thread-12 :3639462 [dir_watcher.py:_on_file_created():271] file/dir created: /home/baekrok/Plasticity/wandb/run-20240712_150321-15pa7fn4/files/conda-environment.yaml
+2024-07-12 15:03:30,021 DEBUG   HandlerThread:3639462 [system_info.py:_save_conda():87] Saving conda packages done
+2024-07-12 15:03:30,021 DEBUG   HandlerThread:3639462 [system_info.py:_save_code():90] Saving code
+2024-07-12 15:03:30,022 DEBUG   HandlerThread:3639462 [system_info.py:_save_code():111] Saving code done
+2024-07-12 15:03:30,023 INFO    HandlerThread:3639462 [system_monitor.py:probe():229] Finished publishing system info
+2024-07-12 15:03:30,027 DEBUG   HandlerThread:3639462 [handler.py:handle_request():146] handle_request: status_report
+2024-07-12 15:03:30,027 DEBUG   HandlerThread:3639462 [handler.py:handle_request():146] handle_request: keepalive
+2024-07-12 15:03:30,028 DEBUG   SenderThread:3639462 [sender.py:send():380] send: files
+2024-07-12 15:03:30,028 INFO    SenderThread:3639462 [sender.py:_save_file():1380] saving file wandb-metadata.json with policy now
+2024-07-12 15:03:30,028 INFO    SenderThread:3639462 [sender.py:_save_file():1380] saving file code/main.py with policy now
+2024-07-12 15:03:30,036 DEBUG   HandlerThread:3639462 [handler.py:handle_request():146] handle_request: stop_status
+2024-07-12 15:03:30,038 DEBUG   SenderThread:3639462 [sender.py:send_request():407] send_request: stop_status
+2024-07-12 15:03:30,038 DEBUG   HandlerThread:3639462 [handler.py:handle_request():146] handle_request: internal_messages
+2024-07-12 15:03:30,527 DEBUG   SenderThread:3639462 [sender.py:send():380] send: telemetry
+2024-07-12 15:03:30,528 DEBUG   SenderThread:3639462 [sender.py:send():380] send: config
+2024-07-12 15:03:30,528 DEBUG   SenderThread:3639462 [sender.py:send():380] send: telemetry
+2024-07-12 15:03:30,528 DEBUG   SenderThread:3639462 [sender.py:send():380] send: run
+2024-07-12 15:03:30,659 INFO    Thread-12 :3639462 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baekrok/Plasticity/wandb/run-20240712_150321-15pa7fn4/files/config.yaml
+2024-07-12 15:03:30,659 INFO    Thread-12 :3639462 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baekrok/Plasticity/wandb/run-20240712_150321-15pa7fn4/files/conda-environment.yaml
+2024-07-12 15:03:30,659 INFO    Thread-12 :3639462 [dir_watcher.py:_on_file_created():271] file/dir created: /home/baekrok/Plasticity/wandb/run-20240712_150321-15pa7fn4/files/wandb-metadata.json
+2024-07-12 15:03:30,659 INFO    Thread-12 :3639462 [dir_watcher.py:_on_file_created():271] file/dir created: /home/baekrok/Plasticity/wandb/run-20240712_150321-15pa7fn4/files/code/main.py
+2024-07-12 15:03:30,660 INFO    Thread-12 :3639462 [dir_watcher.py:_on_file_created():271] file/dir created: /home/baekrok/Plasticity/wandb/run-20240712_150321-15pa7fn4/files/code
+2024-07-12 15:03:30,831 INFO    SenderThread:3639462 [sender.py:send_run():1002] updated run: 15pa7fn4
+2024-07-12 15:03:30,907 INFO    wandb-upload_0:3639462 [upload_job.py:push():131] Uploaded file /tmp/tmph2ubq7mmwandb/9nvrakti-wandb-metadata.json
+2024-07-12 15:03:31,019 INFO    wandb-upload_1:3639462 [upload_job.py:push():131] Uploaded file /tmp/tmph2ubq7mmwandb/tfo5t94f-code/main.py
+2024-07-12 15:03:31,659 INFO    Thread-12 :3639462 [dir_watcher.py:_on_file_created():271] file/dir created: /home/baekrok/Plasticity/wandb/run-20240712_150321-15pa7fn4/files/output.log
+2024-07-12 15:03:32,914 DEBUG   HandlerThread:3639462 [handler.py:handle_request():146] handle_request: status_report
+2024-07-12 15:03:33,660 INFO    Thread-12 :3639462 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baekrok/Plasticity/wandb/run-20240712_150321-15pa7fn4/files/output.log
+2024-07-12 15:03:34,660 INFO    Thread-12 :3639462 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baekrok/Plasticity/wandb/run-20240712_150321-15pa7fn4/files/output.log
+2024-07-12 15:03:37,915 DEBUG   HandlerThread:3639462 [handler.py:handle_request():146] handle_request: status_report
+2024-07-12 15:03:42,916 DEBUG   HandlerThread:3639462 [handler.py:handle_request():146] handle_request: status_report
+2024-07-12 15:03:45,036 DEBUG   HandlerThread:3639462 [handler.py:handle_request():146] handle_request: stop_status
+2024-07-12 15:03:45,037 DEBUG   HandlerThread:3639462 [handler.py:handle_request():146] handle_request: internal_messages
+2024-07-12 15:03:45,037 DEBUG   SenderThread:3639462 [sender.py:send_request():407] send_request: stop_status
+2024-07-12 15:03:48,295 DEBUG   HandlerThread:3639462 [handler.py:handle_request():146] handle_request: status_report
+2024-07-12 15:03:53,301 DEBUG   HandlerThread:3639462 [handler.py:handle_request():146] handle_request: status_report
+2024-07-12 15:03:54,669 INFO    Thread-12 :3639462 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baekrok/Plasticity/wandb/run-20240712_150321-15pa7fn4/files/config.yaml
+2024-07-12 15:03:58,754 DEBUG   HandlerThread:3639462 [handler.py:handle_request():146] handle_request: status_report
+2024-07-12 15:04:00,036 DEBUG   HandlerThread:3639462 [handler.py:handle_request():146] handle_request: stop_status
+2024-07-12 15:04:00,037 DEBUG   SenderThread:3639462 [sender.py:send_request():407] send_request: stop_status
+2024-07-12 15:04:00,079 DEBUG   HandlerThread:3639462 [handler.py:handle_request():146] handle_request: internal_messages
+2024-07-12 15:04:04,397 DEBUG   HandlerThread:3639462 [handler.py:handle_request():146] handle_request: status_report
+2024-07-12 15:04:09,398 DEBUG   HandlerThread:3639462 [handler.py:handle_request():146] handle_request: status_report
+2024-07-12 15:04:14,399 DEBUG   HandlerThread:3639462 [handler.py:handle_request():146] handle_request: status_report
+2024-07-12 15:04:15,038 DEBUG   HandlerThread:3639462 [handler.py:handle_request():146] handle_request: internal_messages
+2024-07-12 15:04:15,039 DEBUG   HandlerThread:3639462 [handler.py:handle_request():146] handle_request: stop_status
+2024-07-12 15:04:15,039 DEBUG   SenderThread:3639462 [sender.py:send_request():407] send_request: stop_status
+2024-07-12 15:04:20,330 DEBUG   HandlerThread:3639462 [handler.py:handle_request():146] handle_request: status_report
+2024-07-12 15:04:22,777 DEBUG   SystemMonitor:3639462 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-07-12 15:04:22,782 DEBUG   SenderThread:3639462 [sender.py:send():380] send: stats
+2024-07-12 15:04:25,785 DEBUG   HandlerThread:3639462 [handler.py:handle_request():146] handle_request: status_report
+2024-07-12 15:04:30,041 DEBUG   HandlerThread:3639462 [handler.py:handle_request():146] handle_request: internal_messages
+2024-07-12 15:04:30,041 DEBUG   HandlerThread:3639462 [handler.py:handle_request():146] handle_request: stop_status
+2024-07-12 15:04:30,042 DEBUG   SenderThread:3639462 [sender.py:send_request():407] send_request: stop_status
+2024-07-12 15:04:31,343 DEBUG   HandlerThread:3639462 [handler.py:handle_request():146] handle_request: status_report
+2024-07-12 15:04:36,344 DEBUG   HandlerThread:3639462 [handler.py:handle_request():146] handle_request: status_report
+2024-07-12 15:04:41,345 DEBUG   HandlerThread:3639462 [handler.py:handle_request():146] handle_request: status_report
+2024-07-12 15:04:42,580 DEBUG   HandlerThread:3639462 [handler.py:handle_request():146] handle_request: partial_history
+2024-07-12 15:04:42,681 DEBUG   SenderThread:3639462 [sender.py:send():380] send: exit
+2024-07-12 15:04:42,681 INFO    SenderThread:3639462 [sender.py:send_exit():585] handling exit code: 1
+2024-07-12 15:04:42,682 INFO    SenderThread:3639462 [sender.py:send_exit():587] handling runtime: 79
+2024-07-12 15:04:42,683 INFO    SenderThread:3639462 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-07-12 15:04:42,684 INFO    SenderThread:3639462 [sender.py:send_exit():593] send defer
+2024-07-12 15:04:42,685 DEBUG   HandlerThread:3639462 [handler.py:handle_request():146] handle_request: defer
+2024-07-12 15:04:42,685 INFO    HandlerThread:3639462 [handler.py:handle_request_defer():172] handle defer: 0
+2024-07-12 15:04:42,685 DEBUG   SenderThread:3639462 [sender.py:send_request():407] send_request: defer
+2024-07-12 15:04:42,685 INFO    SenderThread:3639462 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-07-12 15:04:42,686 INFO    SenderThread:3639462 [sender.py:transition_state():613] send defer: 1
+2024-07-12 15:04:42,686 DEBUG   HandlerThread:3639462 [handler.py:handle_request():146] handle_request: defer
+2024-07-12 15:04:42,686 INFO    HandlerThread:3639462 [handler.py:handle_request_defer():172] handle defer: 1
+2024-07-12 15:04:42,686 DEBUG   SenderThread:3639462 [sender.py:send_request():407] send_request: defer
+2024-07-12 15:04:42,686 INFO    SenderThread:3639462 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-07-12 15:04:42,687 INFO    SenderThread:3639462 [sender.py:transition_state():613] send defer: 2
+2024-07-12 15:04:42,687 DEBUG   HandlerThread:3639462 [handler.py:handle_request():146] handle_request: defer
+2024-07-12 15:04:42,687 INFO    HandlerThread:3639462 [handler.py:handle_request_defer():172] handle defer: 2
+2024-07-12 15:04:42,687 INFO    HandlerThread:3639462 [system_monitor.py:finish():203] Stopping system monitor
+2024-07-12 15:04:42,689 INFO    HandlerThread:3639462 [interfaces.py:finish():202] Joined cpu monitor
+2024-07-12 15:04:42,689 DEBUG   SystemMonitor:3639462 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-07-12 15:04:42,690 INFO    HandlerThread:3639462 [interfaces.py:finish():202] Joined disk monitor
+2024-07-12 15:04:42,690 DEBUG   SystemMonitor:3639462 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-07-12 15:04:42,696 INFO    Thread-12 :3639462 [dir_watcher.py:_on_file_created():271] file/dir created: /home/baekrok/Plasticity/wandb/run-20240712_150321-15pa7fn4/files/wandb-summary.json
+2024-07-12 15:04:44,191 INFO    HandlerThread:3639462 [interfaces.py:finish():202] Joined gpu monitor
+2024-07-12 15:04:44,192 INFO    HandlerThread:3639462 [interfaces.py:finish():202] Joined memory monitor
+2024-07-12 15:04:44,192 INFO    HandlerThread:3639462 [interfaces.py:finish():202] Joined network monitor
+2024-07-12 15:04:44,192 DEBUG   HandlerThread:3639462 [handler.py:handle_request():146] handle_request: poll_exit
+2024-07-12 15:04:44,193 DEBUG   SenderThread:3639462 [sender.py:send_request():407] send_request: defer
+2024-07-12 15:04:44,193 INFO    SenderThread:3639462 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-07-12 15:04:44,193 INFO    SenderThread:3639462 [sender.py:transition_state():613] send defer: 3
+2024-07-12 15:04:44,194 DEBUG   HandlerThread:3639462 [handler.py:handle_request():146] handle_request: defer
+2024-07-12 15:04:44,194 INFO    HandlerThread:3639462 [handler.py:handle_request_defer():172] handle defer: 3
+2024-07-12 15:04:44,196 DEBUG   SenderThread:3639462 [sender.py:send():380] send: stats
+2024-07-12 15:04:44,198 DEBUG   SenderThread:3639462 [sender.py:send_request():407] send_request: poll_exit
+2024-07-12 15:04:44,199 DEBUG   SenderThread:3639462 [sender.py:send():380] send: history
+2024-07-12 15:04:44,199 DEBUG   SenderThread:3639462 [sender.py:send_request():407] send_request: summary_record
+2024-07-12 15:04:44,200 INFO    SenderThread:3639462 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-07-12 15:04:44,200 DEBUG   SenderThread:3639462 [sender.py:send_request():407] send_request: defer
+2024-07-12 15:04:44,200 INFO    SenderThread:3639462 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-07-12 15:04:44,200 INFO    SenderThread:3639462 [sender.py:transition_state():613] send defer: 4
+2024-07-12 15:04:44,200 DEBUG   HandlerThread:3639462 [handler.py:handle_request():146] handle_request: defer
+2024-07-12 15:04:44,201 INFO    HandlerThread:3639462 [handler.py:handle_request_defer():172] handle defer: 4
+2024-07-12 15:04:44,201 DEBUG   SenderThread:3639462 [sender.py:send_request():407] send_request: defer
+2024-07-12 15:04:44,201 INFO    SenderThread:3639462 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-07-12 15:04:44,201 INFO    SenderThread:3639462 [sender.py:transition_state():613] send defer: 5
+2024-07-12 15:04:44,201 DEBUG   HandlerThread:3639462 [handler.py:handle_request():146] handle_request: defer
+2024-07-12 15:04:44,202 INFO    HandlerThread:3639462 [handler.py:handle_request_defer():172] handle defer: 5
+2024-07-12 15:04:44,202 DEBUG   SenderThread:3639462 [sender.py:send():380] send: summary
+2024-07-12 15:04:44,203 INFO    SenderThread:3639462 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-07-12 15:04:44,203 DEBUG   SenderThread:3639462 [sender.py:send_request():407] send_request: defer
+2024-07-12 15:04:44,203 INFO    SenderThread:3639462 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-07-12 15:04:44,203 INFO    SenderThread:3639462 [sender.py:transition_state():613] send defer: 6
+2024-07-12 15:04:44,204 DEBUG   HandlerThread:3639462 [handler.py:handle_request():146] handle_request: defer
+2024-07-12 15:04:44,204 INFO    HandlerThread:3639462 [handler.py:handle_request_defer():172] handle defer: 6
+2024-07-12 15:04:44,204 DEBUG   SenderThread:3639462 [sender.py:send_request():407] send_request: defer
+2024-07-12 15:04:44,204 INFO    SenderThread:3639462 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-07-12 15:04:44,205 INFO    SenderThread:3639462 [sender.py:transition_state():613] send defer: 7
+2024-07-12 15:04:44,205 DEBUG   HandlerThread:3639462 [handler.py:handle_request():146] handle_request: status_report
+2024-07-12 15:04:44,205 DEBUG   HandlerThread:3639462 [handler.py:handle_request():146] handle_request: defer
+2024-07-12 15:04:44,205 INFO    HandlerThread:3639462 [handler.py:handle_request_defer():172] handle defer: 7
+2024-07-12 15:04:44,206 DEBUG   SenderThread:3639462 [sender.py:send_request():407] send_request: defer
+2024-07-12 15:04:44,206 INFO    SenderThread:3639462 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-07-12 15:04:44,681 DEBUG   HandlerThread:3639462 [handler.py:handle_request():146] handle_request: poll_exit
+2024-07-12 15:04:44,697 INFO    Thread-12 :3639462 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baekrok/Plasticity/wandb/run-20240712_150321-15pa7fn4/files/output.log
+2024-07-12 15:04:44,697 INFO    Thread-12 :3639462 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baekrok/Plasticity/wandb/run-20240712_150321-15pa7fn4/files/wandb-summary.json
+2024-07-12 15:04:46,003 INFO    SenderThread:3639462 [sender.py:transition_state():613] send defer: 8
+2024-07-12 15:04:46,003 DEBUG   SenderThread:3639462 [sender.py:send_request():407] send_request: poll_exit
+2024-07-12 15:04:46,004 DEBUG   HandlerThread:3639462 [handler.py:handle_request():146] handle_request: defer
+2024-07-12 15:04:46,004 INFO    HandlerThread:3639462 [handler.py:handle_request_defer():172] handle defer: 8
+2024-07-12 15:04:46,004 DEBUG   SenderThread:3639462 [sender.py:send_request():407] send_request: defer
+2024-07-12 15:04:46,005 INFO    SenderThread:3639462 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-07-12 15:04:46,005 INFO    SenderThread:3639462 [job_builder.py:build():298] Attempting to build job artifact
+2024-07-12 15:04:46,006 INFO    SenderThread:3639462 [job_builder.py:_get_source_type():439] no source found
+2024-07-12 15:04:46,006 INFO    SenderThread:3639462 [sender.py:transition_state():613] send defer: 9
+2024-07-12 15:04:46,006 DEBUG   HandlerThread:3639462 [handler.py:handle_request():146] handle_request: defer
+2024-07-12 15:04:46,006 INFO    HandlerThread:3639462 [handler.py:handle_request_defer():172] handle defer: 9
+2024-07-12 15:04:46,007 DEBUG   SenderThread:3639462 [sender.py:send_request():407] send_request: defer
+2024-07-12 15:04:46,007 INFO    SenderThread:3639462 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-07-12 15:04:46,007 INFO    SenderThread:3639462 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-07-12 15:04:46,698 INFO    Thread-12 :3639462 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baekrok/Plasticity/wandb/run-20240712_150321-15pa7fn4/files/output.log
+2024-07-12 15:04:46,699 INFO    SenderThread:3639462 [dir_watcher.py:finish():388] scan: /home/baekrok/Plasticity/wandb/run-20240712_150321-15pa7fn4/files
+2024-07-12 15:04:46,699 INFO    SenderThread:3639462 [dir_watcher.py:finish():402] scan save: /home/baekrok/Plasticity/wandb/run-20240712_150321-15pa7fn4/files/requirements.txt requirements.txt
+2024-07-12 15:04:46,700 INFO    SenderThread:3639462 [dir_watcher.py:finish():402] scan save: /home/baekrok/Plasticity/wandb/run-20240712_150321-15pa7fn4/files/conda-environment.yaml conda-environment.yaml
+2024-07-12 15:04:46,700 INFO    SenderThread:3639462 [dir_watcher.py:finish():402] scan save: /home/baekrok/Plasticity/wandb/run-20240712_150321-15pa7fn4/files/output.log output.log
+2024-07-12 15:04:46,705 INFO    SenderThread:3639462 [dir_watcher.py:finish():402] scan save: /home/baekrok/Plasticity/wandb/run-20240712_150321-15pa7fn4/files/wandb-summary.json wandb-summary.json
+2024-07-12 15:04:46,713 INFO    SenderThread:3639462 [dir_watcher.py:finish():402] scan save: /home/baekrok/Plasticity/wandb/run-20240712_150321-15pa7fn4/files/wandb-metadata.json wandb-metadata.json
+2024-07-12 15:04:46,713 INFO    SenderThread:3639462 [dir_watcher.py:finish():402] scan save: /home/baekrok/Plasticity/wandb/run-20240712_150321-15pa7fn4/files/config.yaml config.yaml
+2024-07-12 15:04:46,715 INFO    SenderThread:3639462 [dir_watcher.py:finish():402] scan save: /home/baekrok/Plasticity/wandb/run-20240712_150321-15pa7fn4/files/code/main.py code/main.py
+2024-07-12 15:04:46,717 INFO    SenderThread:3639462 [sender.py:transition_state():613] send defer: 10
+2024-07-12 15:04:46,720 DEBUG   HandlerThread:3639462 [handler.py:handle_request():146] handle_request: defer
+2024-07-12 15:04:46,720 INFO    HandlerThread:3639462 [handler.py:handle_request_defer():172] handle defer: 10
+2024-07-12 15:04:46,720 DEBUG   SenderThread:3639462 [sender.py:send_request():407] send_request: defer
+2024-07-12 15:04:46,721 INFO    SenderThread:3639462 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-07-12 15:04:46,721 INFO    SenderThread:3639462 [file_pusher.py:finish():175] shutting down file pusher
+2024-07-12 15:04:47,207 INFO    wandb-upload_0:3639462 [upload_job.py:push():131] Uploaded file /home/baekrok/Plasticity/wandb/run-20240712_150321-15pa7fn4/files/requirements.txt
+2024-07-12 15:04:47,213 INFO    wandb-upload_1:3639462 [upload_job.py:push():131] Uploaded file /home/baekrok/Plasticity/wandb/run-20240712_150321-15pa7fn4/files/output.log
+2024-07-12 15:04:47,333 INFO    wandb-upload_2:3639462 [upload_job.py:push():131] Uploaded file /home/baekrok/Plasticity/wandb/run-20240712_150321-15pa7fn4/files/conda-environment.yaml
+2024-07-12 15:04:47,497 INFO    wandb-upload_4:3639462 [upload_job.py:push():131] Uploaded file /home/baekrok/Plasticity/wandb/run-20240712_150321-15pa7fn4/files/config.yaml
+2024-07-12 15:04:47,510 INFO    wandb-upload_3:3639462 [upload_job.py:push():131] Uploaded file /home/baekrok/Plasticity/wandb/run-20240712_150321-15pa7fn4/files/wandb-summary.json
+2024-07-12 15:04:47,711 INFO    Thread-11 (_thread_body):3639462 [sender.py:transition_state():613] send defer: 11
+2024-07-12 15:04:47,711 DEBUG   HandlerThread:3639462 [handler.py:handle_request():146] handle_request: defer
+2024-07-12 15:04:47,712 INFO    HandlerThread:3639462 [handler.py:handle_request_defer():172] handle defer: 11
+2024-07-12 15:04:47,712 DEBUG   SenderThread:3639462 [sender.py:send_request():407] send_request: defer
+2024-07-12 15:04:47,712 INFO    SenderThread:3639462 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-07-12 15:04:47,713 INFO    SenderThread:3639462 [file_pusher.py:join():181] waiting for file pusher
+2024-07-12 15:04:47,713 INFO    SenderThread:3639462 [sender.py:transition_state():613] send defer: 12
+2024-07-12 15:04:47,713 DEBUG   HandlerThread:3639462 [handler.py:handle_request():146] handle_request: defer
+2024-07-12 15:04:47,713 INFO    HandlerThread:3639462 [handler.py:handle_request_defer():172] handle defer: 12
+2024-07-12 15:04:47,713 DEBUG   SenderThread:3639462 [sender.py:send_request():407] send_request: defer
+2024-07-12 15:04:47,714 INFO    SenderThread:3639462 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-07-12 15:04:47,714 INFO    SenderThread:3639462 [file_stream.py:finish():595] file stream finish called
+2024-07-12 15:04:48,509 INFO    SenderThread:3639462 [file_stream.py:finish():599] file stream finish is done
+2024-07-12 15:04:48,509 INFO    SenderThread:3639462 [sender.py:transition_state():613] send defer: 13
+2024-07-12 15:04:48,509 DEBUG   HandlerThread:3639462 [handler.py:handle_request():146] handle_request: defer
+2024-07-12 15:04:48,509 INFO    HandlerThread:3639462 [handler.py:handle_request_defer():172] handle defer: 13
+2024-07-12 15:04:48,510 DEBUG   SenderThread:3639462 [sender.py:send_request():407] send_request: defer
+2024-07-12 15:04:48,510 INFO    SenderThread:3639462 [sender.py:send_request_defer():609] handle sender defer: 13
+2024-07-12 15:04:48,510 INFO    SenderThread:3639462 [sender.py:transition_state():613] send defer: 14
+2024-07-12 15:04:48,511 DEBUG   HandlerThread:3639462 [handler.py:handle_request():146] handle_request: defer
+2024-07-12 15:04:48,511 INFO    HandlerThread:3639462 [handler.py:handle_request_defer():172] handle defer: 14
+2024-07-12 15:04:48,511 DEBUG   SenderThread:3639462 [sender.py:send():380] send: final
+2024-07-12 15:04:48,511 DEBUG   SenderThread:3639462 [sender.py:send():380] send: footer
+2024-07-12 15:04:48,512 DEBUG   SenderThread:3639462 [sender.py:send_request():407] send_request: defer
+2024-07-12 15:04:48,512 INFO    SenderThread:3639462 [sender.py:send_request_defer():609] handle sender defer: 14
+2024-07-12 15:04:48,513 DEBUG   HandlerThread:3639462 [handler.py:handle_request():146] handle_request: poll_exit
+2024-07-12 15:04:48,513 DEBUG   SenderThread:3639462 [sender.py:send_request():407] send_request: poll_exit
+2024-07-12 15:04:48,514 DEBUG   HandlerThread:3639462 [handler.py:handle_request():146] handle_request: server_info
+2024-07-12 15:04:48,514 DEBUG   SenderThread:3639462 [sender.py:send_request():407] send_request: server_info
+2024-07-12 15:04:48,517 DEBUG   HandlerThread:3639462 [handler.py:handle_request():146] handle_request: get_summary
+2024-07-12 15:04:48,518 DEBUG   HandlerThread:3639462 [handler.py:handle_request():146] handle_request: sampled_history
+2024-07-12 15:04:48,519 DEBUG   HandlerThread:3639462 [handler.py:handle_request():146] handle_request: internal_messages
+2024-07-12 15:04:48,520 DEBUG   HandlerThread:3639462 [handler.py:handle_request():146] handle_request: job_info
+2024-07-12 15:04:48,752 DEBUG   SenderThread:3639462 [sender.py:send_request():407] send_request: job_info
+2024-07-12 15:04:48,752 INFO    MainThread:3639462 [wandb_run.py:_footer_history_summary_info():3760] rendering history
+2024-07-12 15:04:48,753 INFO    MainThread:3639462 [wandb_run.py:_footer_history_summary_info():3792] rendering summary
+2024-07-12 15:04:48,753 INFO    MainThread:3639462 [wandb_run.py:_footer_sync_info():3719] logging synced files
+2024-07-12 15:04:48,754 DEBUG   HandlerThread:3639462 [handler.py:handle_request():146] handle_request: shutdown
+2024-07-12 15:04:48,754 INFO    HandlerThread:3639462 [handler.py:finish():866] shutting down handler
+2024-07-12 15:04:49,520 INFO    WriterThread:3639462 [datastore.py:close():294] close: /home/baekrok/Plasticity/wandb/run-20240712_150321-15pa7fn4/run-15pa7fn4.wandb
+2024-07-12 15:04:49,752 INFO    SenderThread:3639462 [sender.py:finish():1536] shutting down sender
+2024-07-12 15:04:49,752 INFO    SenderThread:3639462 [file_pusher.py:finish():175] shutting down file pusher
+2024-07-12 15:04:49,752 INFO    SenderThread:3639462 [file_pusher.py:join():181] waiting for file pusher

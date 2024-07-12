@@ -1,0 +1,9 @@
+Files already downloaded and verified
+Files already downloaded and verified
+  0%|                                                                                                | 0/50 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/baekrok/Plasticity/main.py", line 402, in <module>
+    run(vars(args))
+  File "/home/baekrok/Plasticity/main.py", line 104, in run
+    if args.train_type == 'dash' & (chunk_idx >= 1):
+TypeError: unsupported operand type(s) for &: 'str' and 'bool'

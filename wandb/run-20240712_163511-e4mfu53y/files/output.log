@@ -1,0 +1,28 @@
+Traceback (most recent call last):
+  File "/home/baekrok/Plasticity/main.py", line 191, in <module>
+    run(vars(args))
+  File "/home/baekrok/Plasticity/main.py", line 80, in run
+    train_acc, train_loss, step, epoch = train_chunk(args, model, init_model, criterion, optimizer, schedulers, chunk_loader_lst, chunk_idx)
+  File "/home/baekrok/Plasticity/main.py", line 103, in train_chunk
+    epoch_acc, epoch_loss = train_epoch(args, model, init_model, criterion, optimizer, schedulers[1], chunk_loader, epoch)
+  File "/home/baekrok/Plasticity/main.py", line 120, in train_epoch
+    for inputs, targets in chunk_loader:
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 630, in __next__
+    data = self._next_data()
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 674, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torch/utils/data/dataset.py", line 302, in __getitem__
+    return self.datasets[dataset_idx][sample_idx]
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torch/utils/data/dataset.py", line 356, in __getitem__
+    return self.dataset[self.indices[idx]]
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torchvision/datasets/folder.py", line 229, in __getitem__
+    sample = self.loader(path)
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torchvision/datasets/folder.py", line 268, in default_loader
+    return pil_loader(path)
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torchvision/datasets/folder.py", line 246, in pil_loader
+    with open(path, "rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'data/tiny-imagenet-200/train/n04067472/images/n04067472_390.JPEG'

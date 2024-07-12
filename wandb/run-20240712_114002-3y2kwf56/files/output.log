@@ -1,0 +1,79 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 96%|████████████████████████████████████████████████████████████████████████████████▋   | 48/50 [4:54:40<12:16, 368.34s/it]
+Traceback (most recent call last):
+  File "/home/baekrok/Plasticity/main.py", line 236, in <module>
+  File "/home/baekrok/Plasticity/main.py", line 110, in run
+    train_acc += epoch_acc
+  File "/home/baekrok/Plasticity/utils/train_utils.py", line 139, in get_prevacc
+    loss.backward()
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 630, in __next__
+    data = self._next_data()
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 674, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torch/utils/data/dataset.py", line 302, in __getitem__
+    return self.datasets[dataset_idx][sample_idx]
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torch/utils/data/dataset.py", line 356, in __getitem__
+    return self.dataset[self.indices[idx]]
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torchvision/datasets/folder.py", line 231, in __getitem__
+    sample = self.transform(sample)
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torchvision/transforms/transforms.py", line 95, in __call__
+    img = t(img)
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torchvision/transforms/transforms.py", line 137, in __call__
+    return F.to_tensor(pic)
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torchvision/transforms/functional.py", line 142, in to_tensor
+    if _is_numpy(pic) and not _is_numpy_image(pic):
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torchvision/transforms/functional.py", line 117, in _is_numpy
+    return isinstance(img, np.ndarray)
+KeyboardInterrupt

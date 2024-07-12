@@ -1,0 +1,10 @@
+Files already downloaded and verified
+Files already downloaded and verified
+Traceback (most recent call last):
+  File "/home/baekrok/Plasticity/main.py", line 191, in <module>
+    run(vars(args))
+  File "/home/baekrok/Plasticity/main.py", line 89, in run
+    model, optimizer = post_training_actions(args, model, optimizer, chunk_idx)
+  File "/home/baekrok/Plasticity/utils/train_utils.py", line 201, in post_training_actions
+    model = models.get_model(args).to(device)
+NameError: name 'models' is not defined

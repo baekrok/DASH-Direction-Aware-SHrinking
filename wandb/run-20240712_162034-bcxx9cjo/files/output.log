@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/home/baekrok/Plasticity/main.py", line 189, in <module>
+    run(vars(args))
+  File "/home/baekrok/Plasticity/main.py", line 87, in run
+    train_acc, train_loss, step = train_chunk(args, model, init_model, criterion, optimizer, schedulers, chunk_loader_lst, chunk_idx)
+  File "/home/baekrok/Plasticity/main.py", line 107, in train_chunk
+    prev_log = get_prev_metric(args, epoch, chunk_idx, model,
+  File "/home/baekrok/Plasticity/utils/metric_utils.py", line 111, in get_prev_metric
+    # Previous Accuracy
+NameError: name 'get_prevacc' is not defined

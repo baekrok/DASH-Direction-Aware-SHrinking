@@ -1,0 +1,9 @@
+Files already downloaded and verified
+Files already downloaded and verified
+  0%|                                                                                                | 0/50 [00:01<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/baekrok/Plasticity/main.py", line 402, in <module>
+    run(vars(args))
+  File "/home/baekrok/Plasticity/main.py", line 150, in run
+    loss = return_loss(args, criterion, outputs, targets, model, init_model)
+NameError: name 'init_model' is not defined

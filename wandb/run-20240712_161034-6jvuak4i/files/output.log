@@ -1,0 +1,26 @@
+Traceback (most recent call last):
+  File "/home/baekrok/Plasticity/main.py", line 189, in <module>
+    run(vars(args))
+  File "/home/baekrok/Plasticity/main.py", line 87, in run
+    train_acc, train_loss, step = train_chunk(args, model, init_model, criterion, optimizer, schedulers, chunk_loader, chunk_idx)
+  File "/home/baekrok/Plasticity/main.py", line 110, in train_chunk
+    epoch_acc, epoch_loss = train_epoch(args, model, init_model, criterion, optimizer, schedulers[1], chunk_loader, epoch)
+  File "/home/baekrok/Plasticity/main.py", line 127, in train_epoch
+    for inputs, targets in chunk_loader:
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 630, in __next__
+    data = self._next_data()
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 674, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 54, in fetch
+    return self.collate_fn(data)
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torch/utils/data/_utils/collate.py", line 265, in default_collate
+    return collate(batch, collate_fn_map=default_collate_fn_map)
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torch/utils/data/_utils/collate.py", line 142, in collate
+    return [collate(samples, collate_fn_map=collate_fn_map) for samples in transposed]  # Backwards compatibility.
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torch/utils/data/_utils/collate.py", line 142, in <listcomp>
+    return [collate(samples, collate_fn_map=collate_fn_map) for samples in transposed]  # Backwards compatibility.
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torch/utils/data/_utils/collate.py", line 119, in collate
+    return collate_fn_map[elem_type](batch, collate_fn_map=collate_fn_map)
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torch/utils/data/_utils/collate.py", line 162, in collate_tensor_fn
+    return torch.stack(batch, 0, out=out)
+KeyboardInterrupt

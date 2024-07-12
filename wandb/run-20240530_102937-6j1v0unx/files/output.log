@@ -1,0 +1,107 @@
+Files already downloaded and verified
+Files already downloaded and verified
+ConvNet(
+  (conv1): Conv2d(3, 96, kernel_size=(3, 3), stride=(1, 1))
+  (bn1): BatchNorm2d(96, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (relu1): ReLU()
+  (conv_layers): Sequential(
+    (0): Conv2d(96, 96, kernel_size=(3, 3), stride=(1, 1))
+    (1): BatchNorm2d(96, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (2): ReLU()
+    (3): Conv2d(96, 192, kernel_size=(3, 3), stride=(2, 2))
+    (4): BatchNorm2d(192, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (5): ReLU()
+  )
+  (conv2): Conv2d(192, 192, kernel_size=(3, 3), stride=(1, 1))
+  (bn2): BatchNorm2d(192, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (relu2): ReLU()
+  (final_conv1): Conv2d(192, 192, kernel_size=(1, 1), stride=(1, 1))
+  (final_bn1): BatchNorm2d(192, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (relu_final1): ReLU()
+  (final_conv2): Conv2d(192, 10, kernel_size=(1, 1), stride=(1, 1))
+  (avgpool): AdaptiveAvgPool2d(output_size=(1, 1))
+)
+  0%|                                                                                                 | 0/2 [00:00<?, ?it/s]
+Chunk [1/2], Epoch [1/100], Loss: 2.2011, Train Accuracy: 0.2164, Test Accuracy: 0.2518
+Chunk [1/2], Epoch [2/100], Loss: 2.0416, Train Accuracy: 0.2638, Test Accuracy: 0.2862
+Chunk [1/2], Epoch [3/100], Loss: 1.9279, Train Accuracy: 0.2962, Test Accuracy: 0.3215
+Chunk [1/2], Epoch [4/100], Loss: 1.8310, Train Accuracy: 0.3248, Test Accuracy: 0.3417
+Chunk [1/2], Epoch [5/100], Loss: 1.7498, Train Accuracy: 0.3484, Test Accuracy: 0.3582
+Chunk [1/2], Epoch [6/100], Loss: 1.6946, Train Accuracy: 0.3635, Test Accuracy: 0.3735
+Chunk [1/2], Epoch [7/100], Loss: 1.6487, Train Accuracy: 0.3789, Test Accuracy: 0.3756
+Chunk [1/2], Epoch [8/100], Loss: 1.6134, Train Accuracy: 0.3930, Test Accuracy: 0.3824
+Chunk [1/2], Epoch [9/100], Loss: 1.5824, Train Accuracy: 0.4067, Test Accuracy: 0.4101
+Chunk [1/2], Epoch [10/100], Loss: 1.5507, Train Accuracy: 0.4183, Test Accuracy: 0.4271
+Chunk [1/2], Epoch [11/100], Loss: 1.5202, Train Accuracy: 0.4347, Test Accuracy: 0.4462
+Chunk [1/2], Epoch [12/100], Loss: 1.4844, Train Accuracy: 0.4518, Test Accuracy: 0.4473
+Chunk [1/2], Epoch [13/100], Loss: 1.4564, Train Accuracy: 0.4649, Test Accuracy: 0.4624
+Chunk [1/2], Epoch [14/100], Loss: 1.4332, Train Accuracy: 0.4779, Test Accuracy: 0.4813
+Chunk [1/2], Epoch [15/100], Loss: 1.4077, Train Accuracy: 0.4900, Test Accuracy: 0.4821
+Chunk [1/2], Epoch [16/100], Loss: 1.3802, Train Accuracy: 0.5011, Test Accuracy: 0.4703
+Chunk [1/2], Epoch [17/100], Loss: 1.3570, Train Accuracy: 0.5115, Test Accuracy: 0.5092
+Chunk [1/2], Epoch [18/100], Loss: 1.3349, Train Accuracy: 0.5204, Test Accuracy: 0.5134
+Chunk [1/2], Epoch [19/100], Loss: 1.3170, Train Accuracy: 0.5284, Test Accuracy: 0.5183
+Chunk [1/2], Epoch [20/100], Loss: 1.2978, Train Accuracy: 0.5324, Test Accuracy: 0.5165
+Chunk [1/2], Epoch [21/100], Loss: 1.2776, Train Accuracy: 0.5436, Test Accuracy: 0.5097
+Chunk [1/2], Epoch [22/100], Loss: 1.2639, Train Accuracy: 0.5434, Test Accuracy: 0.5378
+Chunk [1/2], Epoch [23/100], Loss: 1.2479, Train Accuracy: 0.5520, Test Accuracy: 0.5439
+Chunk [1/2], Epoch [24/100], Loss: 1.2344, Train Accuracy: 0.5563, Test Accuracy: 0.5426
+Chunk [1/2], Epoch [25/100], Loss: 1.2189, Train Accuracy: 0.5643, Test Accuracy: 0.5498
+Chunk [1/2], Epoch [26/100], Loss: 1.2015, Train Accuracy: 0.5733, Test Accuracy: 0.5486
+Chunk [1/2], Epoch [27/100], Loss: 1.1926, Train Accuracy: 0.5731, Test Accuracy: 0.5370
+Chunk [1/2], Epoch [28/100], Loss: 1.1768, Train Accuracy: 0.5805, Test Accuracy: 0.5681
+Chunk [1/2], Epoch [29/100], Loss: 1.1617, Train Accuracy: 0.5850, Test Accuracy: 0.5646
+Chunk [1/2], Epoch [30/100], Loss: 1.1466, Train Accuracy: 0.5900, Test Accuracy: 0.5603
+Chunk [1/2], Epoch [31/100], Loss: 1.1349, Train Accuracy: 0.5952, Test Accuracy: 0.5657
+Chunk [1/2], Epoch [32/100], Loss: 1.1249, Train Accuracy: 0.6004, Test Accuracy: 0.5345
+Chunk [1/2], Epoch [33/100], Loss: 1.1072, Train Accuracy: 0.6072, Test Accuracy: 0.5590
+Chunk [1/2], Epoch [34/100], Loss: 1.1025, Train Accuracy: 0.6067, Test Accuracy: 0.5677
+Chunk [1/2], Epoch [35/100], Loss: 1.0900, Train Accuracy: 0.6118, Test Accuracy: 0.5570
+Chunk [1/2], Epoch [36/100], Loss: 1.0774, Train Accuracy: 0.6174, Test Accuracy: 0.5627
+Chunk [1/2], Epoch [37/100], Loss: 1.0637, Train Accuracy: 0.6242, Test Accuracy: 0.5888
+Chunk [1/2], Epoch [38/100], Loss: 1.0500, Train Accuracy: 0.6248, Test Accuracy: 0.5835
+Chunk [1/2], Epoch [39/100], Loss: 1.0418, Train Accuracy: 0.6298, Test Accuracy: 0.6001
+Chunk [1/2], Epoch [40/100], Loss: 1.0290, Train Accuracy: 0.6340, Test Accuracy: 0.5729
+Chunk [1/2], Epoch [41/100], Loss: 1.0181, Train Accuracy: 0.6390, Test Accuracy: 0.5954
+Chunk [1/2], Epoch [42/100], Loss: 1.0079, Train Accuracy: 0.6422, Test Accuracy: 0.6245
+Chunk [1/2], Epoch [43/100], Loss: 0.9996, Train Accuracy: 0.6448, Test Accuracy: 0.5936
+Chunk [1/2], Epoch [44/100], Loss: 0.9911, Train Accuracy: 0.6453, Test Accuracy: 0.6200
+Chunk [1/2], Epoch [45/100], Loss: 0.9856, Train Accuracy: 0.6513, Test Accuracy: 0.5923
+Chunk [1/2], Epoch [46/100], Loss: 0.9760, Train Accuracy: 0.6534, Test Accuracy: 0.6071
+Chunk [1/2], Epoch [47/100], Loss: 0.9595, Train Accuracy: 0.6612, Test Accuracy: 0.6020
+Chunk [1/2], Epoch [48/100], Loss: 0.9535, Train Accuracy: 0.6619, Test Accuracy: 0.5883
+Chunk [1/2], Epoch [49/100], Loss: 0.9399, Train Accuracy: 0.6640, Test Accuracy: 0.6318
+  0%|                                                                                                 | 0/2 [06:07<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/baekrok/Plasticity/temp.py", line 146, in <module>
+    train(args)
+  File "/home/baekrok/Plasticity/temp.py", line 100, in train
+    for inputs, labels in chunk_loader:
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 630, in __next__
+    data = self._next_data()
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 674, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torch/utils/data/dataset.py", line 302, in __getitem__
+    return self.datasets[dataset_idx][sample_idx]
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torch/utils/data/dataset.py", line 356, in __getitem__
+    return self.dataset[self.indices[idx]]
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torchvision/datasets/cifar.py", line 118, in __getitem__
+    img = self.transform(img)
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torchvision/transforms/transforms.py", line 95, in __call__
+    img = t(img)
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torchvision/transforms/transforms.py", line 277, in forward
+    return F.normalize(tensor, self.mean, self.std, self.inplace)
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torchvision/transforms/functional.py", line 363, in normalize
+    return F_t.normalize(tensor, mean=mean, std=std, inplace=inplace)
+  File "/opt/anaconda3/envs/torch/lib/python3.10/site-packages/torchvision/transforms/_functional_tensor.py", line 928, in normalize
+    return tensor.sub_(mean).div_(std)
+KeyboardInterrupt
+Chunk [1/2], Epoch [51/100], Loss: 0.9294, Train Accuracy: 0.6726, Test Accuracy: 0.6092

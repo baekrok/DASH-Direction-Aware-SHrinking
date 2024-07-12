@@ -1,0 +1,43 @@
+Files already downloaded and verified
+Files already downloaded and verified
+  0%|                                                                                                 | 0/2 [00:00<?, ?it/s]
+Chunk [1/2], Epoch [1/100], Loss: 1.6494, Train Accuracy: 0.4067, Test Accuracy: 0.4919
+Chunk [1/2], Epoch [2/100], Loss: 1.2226, Train Accuracy: 0.5617, Test Accuracy: 0.5799
+Chunk [1/2], Epoch [3/100], Loss: 0.9534, Train Accuracy: 0.6622, Test Accuracy: 0.6274
+Chunk [1/2], Epoch [4/100], Loss: 0.7013, Train Accuracy: 0.7510, Test Accuracy: 0.6497
+Chunk [1/2], Epoch [5/100], Loss: 0.4294, Train Accuracy: 0.8500, Test Accuracy: 0.6644
+Chunk [1/2], Epoch [6/100], Loss: 0.1990, Train Accuracy: 0.9330, Test Accuracy: 0.6560
+Chunk [1/2], Epoch [7/100], Loss: 0.0859, Train Accuracy: 0.9729, Test Accuracy: 0.6618
+Chunk [1/2], Epoch [8/100], Loss: 0.0417, Train Accuracy: 0.9874, Test Accuracy: 0.6609
+Chunk [1/2], Epoch [9/100], Loss: 0.0244, Train Accuracy: 0.9938, Test Accuracy: 0.6672
+Chunk [1/2], Epoch [10/100], Loss: 0.0128, Train Accuracy: 0.9969, Test Accuracy: 0.6613
+Chunk [1/2], Epoch [11/100], Loss: 0.0146, Train Accuracy: 0.9958, Test Accuracy: 0.6658
+Chunk [1/2], Epoch [12/100], Loss: 0.0046, Train Accuracy: 0.9988, Test Accuracy: 0.6760
+Chunk [1/2], Epoch [13/100], Loss: 0.0012, Train Accuracy: 0.9998, Test Accuracy: 0.6830
+Chunk [1/2], Epoch [14/100], Loss: 0.0002, Train Accuracy: 1.0000, Test Accuracy: 0.6843
+Chunk [1/2], Epoch [15/100], Loss: 0.0002, Train Accuracy: 1.0000, Test Accuracy: 0.6840
+Chunk [1/2], Epoch [16/100], Loss: 0.0001, Train Accuracy: 1.0000, Test Accuracy: 0.6838
+Chunk [1/2], Epoch [17/100], Loss: 0.0001, Train Accuracy: 1.0000, Test Accuracy: 0.6832
+Chunk [1/2], Epoch [18/100], Loss: 0.0001, Train Accuracy: 1.0000, Test Accuracy: 0.6835
+Chunk [1/2], Epoch [19/100], Loss: 0.0001, Train Accuracy: 1.0000, Test Accuracy: 0.6834
+Chunk [1/2], Epoch [20/100], Loss: 0.0001, Train Accuracy: 1.0000, Test Accuracy: 0.6835
+Chunk [1/2], Epoch [21/100], Loss: 0.0001, Train Accuracy: 1.0000, Test Accuracy: 0.6834
+Chunk [1/2], Epoch [22/100], Loss: 0.0001, Train Accuracy: 1.0000, Test Accuracy: 0.6836
+Chunk [1/2], Epoch [23/100], Loss: 0.0001, Train Accuracy: 1.0000, Test Accuracy: 0.6838
+Chunk [1/2], Epoch [24/100], Loss: 0.0001, Train Accuracy: 1.0000, Test Accuracy: 0.6831
+Chunk [1/2], Epoch [25/100], Loss: 0.0000, Train Accuracy: 1.0000, Test Accuracy: 0.6832
+Chunk [1/2], Epoch [26/100], Loss: 0.0000, Train Accuracy: 1.0000, Test Accuracy: 0.6832
+Chunk [1/2], Epoch [27/100], Loss: 0.0000, Train Accuracy: 1.0000, Test Accuracy: 0.6835
+Chunk [1/2], Epoch [28/100], Loss: 0.0000, Train Accuracy: 1.0000, Test Accuracy: 0.6840
+Chunk [1/2], Epoch [29/100], Loss: 0.0000, Train Accuracy: 1.0000, Test Accuracy: 0.6840
+Chunk [1/2], Epoch [30/100], Loss: 0.0000, Train Accuracy: 1.0000, Test Accuracy: 0.6839
+Chunk [1/2], Epoch [31/100], Loss: 0.0000, Train Accuracy: 1.0000, Test Accuracy: 0.6838
+Chunk [1/2], Epoch [32/100], Loss: 0.0000, Train Accuracy: 1.0000, Test Accuracy: 0.6838
+Chunk [1/2], Epoch [33/100], Loss: 0.0000, Train Accuracy: 1.0000, Test Accuracy: 0.6838
+  0%|                                                                                                 | 0/2 [07:22<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/baekrok/Plasticity/temp.py", line 133, in <module>
+    args = parser.parse_args()
+  File "/home/baekrok/Plasticity/temp.py", line 100, in train
+    running_loss += loss.item()
+KeyboardInterrupt

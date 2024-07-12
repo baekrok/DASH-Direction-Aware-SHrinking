@@ -1,0 +1,9 @@
+Files already downloaded and verified
+Files already downloaded and verified
+  0%|                                                                                                | 0/1 [00:00<?, ?it/s]
+Chunk [1/1], Epoch [1/100], Loss: 1.9458, Train Accuracy: 0.2653, Test Accuracy: 0.3491
+Chunk [1/1], Epoch [2/100], Loss: 1.6545, Train Accuracy: 0.3757, Test Accuracy: 0.3871
+Chunk [1/1], Epoch [3/100], Loss: 1.5444, Train Accuracy: 0.4272, Test Accuracy: 0.4444
+Chunk [1/1], Epoch [4/100], Loss: 1.4551, Train Accuracy: 0.4686, Test Accuracy: 0.4901
+Chunk [1/1], Epoch [5/100], Loss: 1.3790, Train Accuracy: 0.4983, Test Accuracy: 0.4934
+Chunk [1/1], Epoch [6/100], Loss: 1.3284, Train Accuracy: 0.5257, Test Accuracy: 0.5367
