@@ -1,8 +1,0 @@
-Files already downloaded and verified
-Files already downloaded and verified
-
-  2%|█▊                                                                                      | 1/50 [00:24<19:41, 24.10s/it]
-Traceback (most recent call last):
-  File "/home/baekrok/Plasticity/main.py", line 239, in <module>
-  File "/home/baekrok/Plasticity/main.py", line 153, in run
-KeyboardInterrupt

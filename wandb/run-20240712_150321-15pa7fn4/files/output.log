@@ -1,9 +1,0 @@
-Files already downloaded and verified
-Files already downloaded and verified
-  2%|█▎                                                                | 1/50 [01:10<57:47, 70.76s/it]
-Traceback (most recent call last):
-  File "/home/baekrok/Plasticity/main.py", line 236, in <module>
-    run(vars(args))
-  File "/home/baekrok/Plasticity/main.py", line 90, in run
-    dash_data = Data_transform(ConcatDataset(es_buffer), transforms.Compose([transforms.ToTensor(),
-NameError: name 'es_buffer' is not defined

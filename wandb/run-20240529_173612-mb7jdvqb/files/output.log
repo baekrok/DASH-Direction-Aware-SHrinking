@@ -1,9 +1,0 @@
-Files already downloaded and verified
-Files already downloaded and verified
-  0%|                                                                                                 | 0/2 [00:12<?, ?it/s]
-Traceback (most recent call last):
-  File "/home/baekrok/Plasticity/temp.py", line 133, in <module>
-    train(args)
-  File "/home/baekrok/Plasticity/temp.py", line 119, in train
-    print(f"Chunk [{chunk_idx+1}/{num_chunks}], Epoch [{epoch+1}/{num_epochs}], Loss: {running_loss/len(chunk_loader):.4f}, "
-NameError: name 'num_epochs' is not defined

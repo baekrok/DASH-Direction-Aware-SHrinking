@@ -1,8 +1,0 @@
-Files already downloaded and verified
-Files already downloaded and verified
-Traceback (most recent call last):
-  File "/home/baekrok/Plasticity/main.py", line 190, in <module>
-    run(vars(args))
-  File "/home/baekrok/Plasticity/main.py", line 56, in run
-    warmup_scheduler = WarmUpLR(optimizer, len(chunk_loader))
-UnboundLocalError: local variable 'chunk_loader' referenced before assignment

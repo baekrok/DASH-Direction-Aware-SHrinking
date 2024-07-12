@@ -1,6 +1,0 @@
-Traceback (most recent call last):
-  File "/home/baekrok/Plasticity/temp.py", line 111, in <module>
-    run_online(vars(args))
-  File "/home/baekrok/Plasticity/temp.py", line 22, in run_online
-    trainset, _, testset, test_loader = get_data(args)
-NameError: name 'get_data' is not defined

@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "/home/baekrok/Plasticity/main.py", line 189, in <module>
-    run(vars(args))
-  File "/home/baekrok/Plasticity/main.py", line 87, in run
-    train_acc, train_loss, step = train_chunk(args, model, init_model, criterion, optimizer, schedulers, chunk_loader, chunk_idx)
-  File "/home/baekrok/Plasticity/main.py", line 110, in train_chunk
-    epoch_acc, epoch_loss = train_epoch(args, model, init_model, criterion, optimizer, schedulers[1], chunk_loader, epoch)
-TypeError: 'NoneType' object is not subscriptable

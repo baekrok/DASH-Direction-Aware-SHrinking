@@ -1,8 +1,0 @@
-Files already downloaded and verified
-Files already downloaded and verified
-Traceback (most recent call last):
-  File "/home/baekrok/Plasticity/main.py", line 215, in <module>
-    run(vars(args))
-  File "/home/baekrok/Plasticity/main.py", line 96, in run
-    prev_chunk_loader, chunk_loader, current_chunk_loader)
-UnboundLocalError: local variable 'prev_chunk_loader' referenced before assignment
