@@ -55,9 +55,15 @@ Or use wget:
 ~~~
 wget http://cs231n.stanford.edu/tiny-imagenet-200.zip
 ~~~
-2. Create a folder named `data`
-3. Move the downloaded Tiny-ImageNet dataset to the `data` folder and unzip
-4. Use `tiny-imagenet_preprocess.py` code to preprocess the test data:
+2. Create a folder named `data`:
+~~~
+mkdir data
+~~~
+4. Unzip the downloaded Tiny-ImageNet dataset to the `data` folder 
+~~~
+unzip tiny-imagenet-200.zip -d data/
+~~~
+6. Use `tiny-imagenet_preprocess.py` code to preprocess the test data:
 ~~~
 python tiny-imagenet_preprocess.py
 ~~~
