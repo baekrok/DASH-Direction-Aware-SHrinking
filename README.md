@@ -53,7 +53,7 @@ Available options for SoTA settings:
 
 ## Synthetic Experiment
 
-For our synthetic experiment, please refer to the `Discrete_Feature_Learning.ipynb` file.
+For our synthetic experiment described in Section 4, please refer to the `Discrete_Feature_Learning.ipynb` file.
 
 ## 📚 Citation
 ```bibtex
