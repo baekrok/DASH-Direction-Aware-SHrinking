@@ -31,3 +31,15 @@ Available options:
 - Training types: `cold`, `warm`, `warm_rm`, `reset`, `l2_init`, `sp`, `dash`
 
 ### Training on Tiny-ImageNet
+
+## 📚 Citation
+```bibtex
+@inproceedings{
+    shin2024dash,
+    title={{DASH}: Warm-Starting Neural Network Training Without Loss of Plasticity Under Stationarity},
+    author={Baekrok Shin and Junsoo Oh and Hanseul Cho and Chulhee Yun},
+    booktitle={2nd Workshop on Advancing Neural Network Training: Computational Efficiency, Scalability, and Resource Optimization (WANT@ICML 2024)},
+    year={2024},
+    url={https://openreview.net/forum?id=GR5LXaglgG}
+}
+```
