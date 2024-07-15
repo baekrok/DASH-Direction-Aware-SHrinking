@@ -63,7 +63,7 @@ mkdir data
 ~~~
 unzip tiny-imagenet-200.zip -d data/
 ~~~
-4. Use `tiny-imagenet_preprocess.py` code to preprocess the test data:
+4. Launch `tiny-imagenet_preprocess.py` to preprocess the test data:
 ~~~
 python tiny-imagenet_preprocess.py
 ~~~
