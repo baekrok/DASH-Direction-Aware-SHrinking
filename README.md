@@ -5,6 +5,7 @@ This repository contains the implementation of Direction-Aware SHrinking (DASH),
 ## 📄 Paper
 
 For more details, check out our paper: 
+
 [DASH: Warm-Starting Neural Network Training Without Loss of Plasticity Under Stationarity](https://openreview.net/pdf?id=GR5LXaglgG)
 
 ## 🛠️ Setup
@@ -27,6 +28,6 @@ python main.py --dataset [dataset] --train_type [type]
 
 Available options:
 - Datasets: `cifar10`, `cifar100`, `svhn`, `imagenet`
-- Training types: `cold`, `warm`, `reset`, `l2_init`, `sp`, `dash`
+- Training types: `cold`, `warm`, `warm_rm`, `reset`, `l2_init`, `sp`, `dash`
 
 ### Training on Tiny-ImageNet
