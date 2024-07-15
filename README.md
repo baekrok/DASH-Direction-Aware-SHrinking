@@ -31,10 +31,6 @@ Available options:
 - Models: `resnet18`, `vgg16`, `mlp`
 - Training types: `cold`, `warm`, `warm_rm`, `reset`, `l2_init`, `sp`, `dash`
 
-### Tiny-ImageNet Training
-
-[Instructions for Tiny-ImageNet will be added here]
-
 ### State-of-the-Art (SoTA) Training
 
 For SoTA settings, use:
@@ -50,8 +46,13 @@ Available options for SoTA settings:
 - Training types: Same as standard training
 
 
+---
 
+### Tiny-ImageNet Training
+
+[Instructions for Tiny-ImageNet will be added here]
 ## Synthetic Experiment
+
 
 For our synthetic experiment described in Section 4, please refer to the `Discrete_Feature_Learning.ipynb` file.
 
