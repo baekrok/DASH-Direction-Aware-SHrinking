@@ -23,14 +23,15 @@ conda env create -f env.yaml
 To train the model, use:
 
 ```
-python main.py --dataset [dataset] --model [model] --train_type [type]
+python main.py --dataset [dataset] --model [model] --train_type [train_type] --optimizer_type [optimizer_type]
 ```
 
 Available options:
 - Datasets: `cifar10`, `cifar100`, `svhn`, `imagenet`
 - Models: `resnet18`, `vgg16`, `mlp`
 - Training types: `cold`, `warm`, `warm_rm`, `reset`, `l2_init`, `sp`, `dash`
-
+- Optimizer types: `sgd`, `sam`
+  
 ### State-of-the-Art (SoTA) Training
 
 For SoTA settings, use:
@@ -43,14 +44,24 @@ python main.py --dataset [dataset] --train_type [type] --sota True \
 Available options for SoTA settings:
 - Datasets: `cifar10`, `cifar100`, `imagenet`
 - Model: `resnet18`
-- Training types: Same as standard training
-
+- Training types and optimizer types: Same as standard training
 
 
 ### Tiny-ImageNet Training
+To use dataset = imagenet:
 
-[Instructions for Tiny-ImageNet will be added here]
+To launch code with `dataset = imagenet`, you will first need to download the dataset from it's website:
+[http://cs231n.stanford.edu/tiny-imagenet-200.zip](http://cs231n.stanford.edu/tiny-imagenet-200.zip)
+Alternatively, you can download using `wget`:
+~~~
+wget http://cs231n.stanford.edu/tiny-imagenet-200.zip
+~~~
 
+1. Download the dataset from http://cs231n.stanford.edu/tiny-imagenet-200.zip
+Or use wget: wget http://cs231n.stanford.edu/tiny-imagenet-200.zip
+2. Create a folder named `data`
+3. Move the downloaded Tiny-ImageNet dataset to the `data` folder
+4. Use above code to preprocess the data
 ---
 
 ## Synthetic Experiment
