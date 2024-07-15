@@ -56,7 +56,7 @@ Or use wget:
 wget http://cs231n.stanford.edu/tiny-imagenet-200.zip
 ~~~
 2. Create a folder named `data`
-3. Move the downloaded Tiny-ImageNet dataset to the `data` folder
+3. Move the downloaded Tiny-ImageNet dataset to the `data` folder and unzip
 4. Use above code to preprocess the data
 
 
