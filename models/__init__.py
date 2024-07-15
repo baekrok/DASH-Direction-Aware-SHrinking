@@ -6,8 +6,8 @@ from models.VGG import *
 model_factories = {
     'resnet18': resnet18,
     'resnet18_sota': resnet18_sota,
-    'mlp_bn': mlp_bn,
-    'vgg16_bn': vgg16_bn, 
+    'mlp': mlp_bn,
+    'vgg16': vgg16_bn, 
 }
 
 def get_available_models():
