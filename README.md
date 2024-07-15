@@ -46,13 +46,14 @@ Available options for SoTA settings:
 - Training types: Same as standard training
 
 
----
 
 ### Tiny-ImageNet Training
 
 [Instructions for Tiny-ImageNet will be added here]
-## Synthetic Experiment
 
+---
+
+## Synthetic Experiment
 
 For our synthetic experiment described in Section 4, please refer to the `Discrete_Feature_Learning.ipynb` file.
 
