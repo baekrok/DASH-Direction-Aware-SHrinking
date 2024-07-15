@@ -37,8 +37,8 @@ Available options:
 For SoTA settings, use:
 
 ```
-python main.py --dataset [dataset] --train_type [type] --sota True \
-    --weight_decay 5e-4 --learning_rate 0.1 --batch_size 128 --max_epoch 260
+python main.py --dataset [dataset] --train_type [type] --optimizer_type [optimizer_type] \
+    --sota True --weight_decay 5e-4 --learning_rate 0.1 --batch_size 128 --max_epoch 260
 ```
 
 Available options for SoTA settings:
