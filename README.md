@@ -37,7 +37,7 @@ Available options:
 For SoTA settings, use:
 
 ```
-python main.py --dataset [dataset] --model [model] --train_type [train_type] --optimizer_type [optimizer_type] \
+python main.py --dataset [dataset] --model resnet18 --train_type [train_type] --optimizer_type [optimizer_type] \
     --sota True --weight_decay 5e-4 --learning_rate 0.1 --batch_size 128 --max_epoch 260
 ```
 
