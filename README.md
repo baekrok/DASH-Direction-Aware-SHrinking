@@ -51,7 +51,7 @@ Available options for SoTA settings:
 To use `dataset = imagenet`:
 
 1. Download the dataset from http://cs231n.stanford.edu/tiny-imagenet-200.zip
-;or use wget:
+or use wget:
 ~~~
 wget http://cs231n.stanford.edu/tiny-imagenet-200.zip
 ~~~
