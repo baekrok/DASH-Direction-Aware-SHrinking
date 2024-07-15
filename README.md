@@ -23,14 +23,27 @@ conda env create -f env.yaml
 To train the model, use:
 
 ```
-python main.py --dataset [dataset] --train_type [type]
+python main.py --dataset [dataset] --model [model] --train_type [type]
 ```
 
 Available options:
 - Datasets: `cifar10`, `cifar100`, `svhn`, `imagenet`
+- Models: `resnet18`, `vgg16`, `mlp`
 - Training types: `cold`, `warm`, `warm_rm`, `reset`, `l2_init`, `sp`, `dash`
 
 ### Training on Tiny-ImageNet
+
+
+### SoTA Training
+
+To train the model with SoTA settings, use:
+```
+python main.py --dataset [dataset] --train_type [type] --sota True --weight_decay 5e-4 --learning_rate 0.1 --batch_size 128 --max_epoch 260
+```
+Available options:
+- Datasets: `cifar10`, `cifar100`, `imagenet`
+- Models: `resnet18`
+- Training types: `cold`, `warm`, `warm_rm`, `reset`, `l2_init`, `sp`, `dash`
 
 ## 📚 Citation
 ```bibtex
