@@ -37,17 +37,23 @@ Available options:
 
 ### State-of-the-Art (SoTA) Training
 
-For SoTA performance, use:
+For SoTA settings, use:
 
 ```
 python main.py --dataset [dataset] --train_type [type] --sota True \
     --weight_decay 5e-4 --learning_rate 0.1 --batch_size 128 --max_epoch 260
 ```
 
-SoTA options:
+Available options for SoTA settings:
 - Datasets: `cifar10`, `cifar100`, `imagenet`
 - Model: `resnet18`
 - Training types: Same as standard training
+
+
+
+## Synthetic Experiment
+
+For our synthetic experiment, please refer to the `Discrete_Feature_Learning.ipynb` file.
 
 ## 📚 Citation
 ```bibtex
