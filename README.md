@@ -50,7 +50,8 @@ Available options for SoTA settings:
 ### Tiny-ImageNet Training
 To use `dataset = imagenet`:
 
-1. Download the dataset from http://cs231n.stanford.edu/tiny-imagenet-200.zip;or use wget:
+1. Download the dataset from http://cs231n.stanford.edu/tiny-imagenet-200.zip
+;or use wget:
 ~~~
 wget http://cs231n.stanford.edu/tiny-imagenet-200.zip
 ~~~
