@@ -4,7 +4,8 @@ This repository contains the implementation of Direction-Aware SHrinking (DASH),
 
 ## 📄 Paper
 
-For more details, check out our paper: [DASH: Warm-Starting Neural Network Training Without Loss of Plasticity Under Stationarity](https://openreview.net/pdf?id=GR5LXaglgG)
+For more details, check out our paper: 
+[DASH: Warm-Starting Neural Network Training Without Loss of Plasticity Under Stationarity](https://openreview.net/pdf?id=GR5LXaglgG)
 
 ## 🛠️ Setup
 
