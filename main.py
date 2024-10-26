@@ -129,9 +129,7 @@ def train_epoch(args, model, init_model, criterion, optimizer, warmup_scheduler,
             optimizer.step()
         elif args.optimizer_type == 'sam':
             optimizer.first_step(zero_grad=True)
-            outputs = model(inputs)
-            second_loss = return_loss(args, criterion, outputs, targets, model, init_model)
-            second_loss.backward()
+            return_loss(args, criterion, model(inputs), targets, model, init_model).backward()
             optimizer.second_step(zero_grad=True)
         if (args.sota == True) & (epoch < 1):
             warmup_scheduler.step()
